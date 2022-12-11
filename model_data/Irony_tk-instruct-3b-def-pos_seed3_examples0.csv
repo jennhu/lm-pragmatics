@@ -1,0 +1,226 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+IV,1,"In a shop, Lara tries on a dress. The dress is far too long for her. Lara asks Simon: ""Does this dress fit me?"" Simon answers: ""Wow! That must be custom made! It's clearly the perfect size and length for you."" What did Simon want to convey? ","[4, 1, 2, 3]","['IncorrectNonSequitur', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: In a shop, Lara tries on a dress. The dress is far too long for her. Lara asks Simon: ""Does this dress fit me?"" Simon answers: ""Wow! That must be custom made! It's clearly the perfect size and length for you."" What did Simon want to convey? 
+Options:
+1) Simon has to get back to work.
+2) The dress is fitting well.
+3) Lara needs to get a dress of a shorter length.
+4) Simon does not like the color of this dress.
+Answer: ",3,3,True,"{'1': 0.001822336272439674, '2': 0.006873876196373695, '3': 0.9886834576469854, '4': 0.002620329884201341}",0.9886834576469854,3,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,2,"Christian is Shane's big brother. One day, Christian is helping Shane with his homework. Christian explains the homework to Shane. When Shane starts the assignment, he does not follow Christian's instructions. Christian says, ""You are such a wonderful listener."" What did Christian want to convey?","[2, 3, 1, 4]","['CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectLiteral', 'IncorrectNonSequitur']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Christian is Shane's big brother. One day, Christian is helping Shane with his homework. Christian explains the homework to Shane. When Shane starts the assignment, he does not follow Christian's instructions. Christian says, ""You are such a wonderful listener."" What did Christian want to convey?
+Options:
+1) Shane was not paying attention when Christian was talking.
+2) Shane's hearing improved greatly.
+3) Shane was paying attention when Christian was talking.
+4) Shane needs to see an eye doctor.
+Answer: ",3,1,True,"{'1': 0.8717663193330523, '2': 0.0796732378899368, '3': 0.04719110272195683, '4': 0.001369340055054052}",0.8717663193330523,1,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,3,"Andrew and Phil are good friends, but they play on different basketball teams. During one game, Phil tries to score a basket but Andrew blocks his shot. Andrew says, ""You are so good at this."" What did Andrew want to convey? ","[1, 3, 2, 4]","['IncorrectLiteral', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectNonSequitur']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Andrew and Phil are good friends, but they play on different basketball teams. During one game, Phil tries to score a basket but Andrew blocks his shot. Andrew says, ""You are so good at this."" What did Andrew want to convey? 
+Options:
+1) Phil is a great basketball player.
+2) Phil's blocking is impressive.
+3) Phil's basketball skills could be better.
+4) Phil is a great student.
+Answer: ",3,1,True,"{'1': 0.910213498394788, '2': 0.08312074021610585, '3': 0.005663184378424456, '4': 0.0010025770106816363}",0.005663184378424456,1,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,4,"Patrick and Jon like to eat at restaurants. One afternoon, they are at a restaurant eating lunch. Patrick orders a bowl of noodles and Jon orders a rice dish. While eating his meal, Patrick spills some noodles on his shirt. Jon says, ""You are so graceful."" What did Jon want to convey?","[4, 3, 1, 2]","['IncorrectNonSequitur', 'IncorrectAssociate', 'IncorrectLiteral', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Patrick and Jon like to eat at restaurants. One afternoon, they are at a restaurant eating lunch. Patrick orders a bowl of noodles and Jon orders a rice dish. While eating his meal, Patrick spills some noodles on his shirt. Jon says, ""You are so graceful."" What did Jon want to convey?
+Options:
+1) Patrick pays a lot of attention to fashion.
+2) Patrick is allergic to noodles.
+3) Patrick is very cautious.
+4) Patrick is careless.
+Answer: ",3,3,True,"{'1': 0.20015114347665897, '2': 0.1641979716957021, '3': 0.47455291157750445, '4': 0.1610979732501345}",0.1610979732501345,3,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,5,"Today Sarah and Tom are going to the beach to go swimming and sunbathing. It was Tom's idea, as he said it was going to be a lovely sunny day to go to the beach. But just as they arrive at the beach, it starts to rain and thunder. Sarah becomes angry. She says ""Oh yes, a lovely day for going to the beach."" What did Sarah want to convey?","[1, 4, 3, 2]","['IncorrectLiteral', 'IncorrectNonSequitur', 'IncorrectAssociate', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Today Sarah and Tom are going to the beach to go swimming and sunbathing. It was Tom's idea, as he said it was going to be a lovely sunny day to go to the beach. But just as they arrive at the beach, it starts to rain and thunder. Sarah becomes angry. She says ""Oh yes, a lovely day for going to the beach."" What did Sarah want to convey?
+Options:
+1) Tom's idea to go to the beach was genius. 
+2) Tom forgot his passport.
+3) Tom forgot his sunscreen.
+4) Tom's idea to go to the beach was awful.
+Answer: ",3,4,True,"{'1': 0.0005275296826920353, '2': 0.0011262880394747204, '3': 0.005090212807831464, '4': 0.9932559694700017}",0.9932559694700017,4,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,6,"It is a holiday. Stefan and Kim are sitting in the backseat of the car. They are fighting all the time. Their father says: ""Oh, it is so pleasant here."" What did the father want to convey?","[4, 1, 2, 3]","['IncorrectNonSequitur', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: It is a holiday. Stefan and Kim are sitting in the backseat of the car. They are fighting all the time. Their father says: ""Oh, it is so pleasant here."" What did the father want to convey?
+Options:
+1) He remembers about his wife's birthday.
+2) He enjoys listening to his kids fighting.
+3) He does not want to listen to his kids' arguments.
+4) AC gives them some needed cool.
+Answer: ",3,3,True,"{'1': 0.16531397567280165, '2': 0.34855774877726176, '3': 0.441087900903749, '4': 0.0450403746461875}",0.441087900903749,3,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,7,"Kim and Jane are leaving the football stadium. Jane says, ""What a wonderful game."" Kim looks disappointed. Kim replies: ""Sorry I made you come."" What did Jane want to convey?","[1, 2, 3, 4]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Kim and Jane are leaving the football stadium. Jane says, ""What a wonderful game."" Kim looks disappointed. Kim replies: ""Sorry I made you come."" What did Jane want to convey?
+Options:
+1) The game was outstanding.
+2) The game was a disaster.
+3) The game ended too late.
+4) The game of chess was over.    
+Answer: ",3,1,True,"{'1': 0.7978295748996211, '2': 0.1732276408265425, '3': 0.02220882753473574, '4': 0.00673395673910071}",0.1732276408265425,1,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,8,"Mark entered a golf tournament where he played badly and kept missing very easy shots. His friend Hal watched the tournament and afterwards he said to Mark, ""You sure are a good golfer."" What did Hal want to convey?","[4, 1, 3, 2]","['IncorrectNonSequitur', 'IncorrectLiteral', 'IncorrectAssociate', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mark entered a golf tournament where he played badly and kept missing very easy shots. His friend Hal watched the tournament and afterwards he said to Mark, ""You sure are a good golfer."" What did Hal want to convey?
+Options:
+1) Mark forgot to thank his dentist.  
+2) Mark is an exceptional player.
+3) Mark forgot to thank his caddy.
+4) Mark isn't a good player.
+Answer: ",3,4,True,"{'1': 0.005709805528957758, '2': 0.017270351468493518, '3': 0.028061287751196994, '4': 0.9489585552513518}",0.9489585552513518,4,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,9,"Adrian's mother asks if he can look in his brother Tom's room to check if he has tidied up. Adrian opens the door to Tom's room, peers in, and sees that the room appears as it normally does - cluttered with toys and dirty clothes. He shouts to his mother: ""Mother, Tom, as usual, has done a splendid job tidying up!"" What did Adrian want to convey?","[3, 1, 4, 2]","['IncorrectAssociate', 'IncorrectLiteral', 'IncorrectNonSequitur', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Adrian's mother asks if he can look in his brother Tom's room to check if he has tidied up. Adrian opens the door to Tom's room, peers in, and sees that the room appears as it normally does - cluttered with toys and dirty clothes. He shouts to his mother: ""Mother, Tom, as usual, has done a splendid job tidying up!"" What did Adrian want to convey?
+Options:
+1) Tom cannot find a vacuum.
+2) Tom tidied up his room.
+3) Tom cannot find a lawyer. 
+4) Tom's room is still messy.
+Answer: ",3,2,True,"{'1': 0.003332115343261034, '2': 0.982733723723479, '3': 0.006800711606870966, '4': 0.007133449326389135}",0.007133449326389135,2,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,10,"Callie promised to bring a salad to Jason's dinner party. She arrived two hours late. Jason said, ""I'm so glad that you were able to fit us into your busy schedule."" What did Jason want to convey?","[2, 1, 3, 4]","['CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Callie promised to bring a salad to Jason's dinner party. She arrived two hours late. Jason said, ""I'm so glad that you were able to fit us into your busy schedule."" What did Jason want to convey?
+Options:
+1) He is annoyed that Callie showed up late.
+2) He is happy that Callie made it to the party.
+3) He is hungry and wants to eat Callie's salad.
+4) He is tired and is going to bed.
+Answer: ",3,2,True,"{'1': 0.010738271465602326, '2': 0.9794811558258882, '3': 0.007860716452750351, '4': 0.0019198562557591115}",0.010738271465602326,2,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,11,"John is a teacher at an elementary school. When talking with the principal about a new student, who did poorly on her entrance examination, John said, ""This one is really sharp."" What did John want to convey?","[4, 3, 2, 1]","['IncorrectNonSequitur', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectLiteral']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: John is a teacher at an elementary school. When talking with the principal about a new student, who did poorly on her entrance examination, John said, ""This one is really sharp."" What did John want to convey?
+Options:
+1) The pencils need to be sharpened.
+2) The entrance exam is unfair. 
+3) The student is not very clever.
+4) The student is smart.
+Answer: ",3,4,True,"{'1': 0.017746518593378675, '2': 0.023514286237863585, '3': 0.09841065960282007, '4': 0.8603285355659376}",0.09841065960282007,4,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,12,"Melissa's friend convinces her to accompany her to a nightclub that her friend says is ""super hot"". When they arrive, it is so cold inside that they can see their breath. Melissa turns to her friend and says, ""The heat is really on in here."" What did Melissa want to convey?","[1, 3, 4, 2]","['IncorrectLiteral', 'IncorrectNonSequitur', 'IncorrectAssociate', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectAssociate']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Melissa's friend convinces her to accompany her to a nightclub that her friend says is ""super hot"". When they arrive, it is so cold inside that they can see their breath. Melissa turns to her friend and says, ""The heat is really on in here."" What did Melissa want to convey?
+Options:
+1) It is too hot.
+2) It is too loud.
+3) It is too bright. 
+4) It is too cold.
+Answer: ",3,4,True,"{'1': 0.20824549627118977, '2': 0.07879989031468652, '3': 0.05382307246398734, '4': 0.6591315409501365}",0.6591315409501365,4,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,13,"Your friend is working on his novel and is not making any progress. When you ask him how it is going he says, ""It couldn't be any better.""  What does your friend want to convey?","[1, 2, 4, 3]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectAssociate']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Your friend is working on his novel and is not making any progress. When you ask him how it is going he says, ""It couldn't be any better.""  What does your friend want to convey?
+Options:
+1) He is happy with his work.
+2) He is unhappy with his work.
+3) He needs to buy a new car.
+4) He needs to polish his style.
+Answer: ",3,2,True,"{'1': 0.003270106410693499, '2': 0.9956427084122325, '3': 0.0008981668933207717, '4': 0.00018901828375328438}",0.9956427084122325,2,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,14,"Tom, who is who is a gourmet chef, was offered a job at a new restaurant. Tom's potential employer offered him really low pay and no benefits. When you ask Tom what he thinks of the offer he says, ""Well, their generosity knows no bounds."" What does Tom want to convey?","[3, 4, 2, 1]","['IncorrectAssociate', 'IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectLiteral']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Tom, who is who is a gourmet chef, was offered a job at a new restaurant. Tom's potential employer offered him really low pay and no benefits. When you ask Tom what he thinks of the offer he says, ""Well, their generosity knows no bounds."" What does Tom want to convey?
+Options:
+1) He is glad to be employed
+2) He is tired of jogging every morning.
+3) He is disappointed with the job offer. 
+4) He is excited about the job offer.
+Answer: ",3,3,True,"{'1': 0.0006981766703306793, '2': 0.001977178867138291, '3': 0.9965588460361755, '4': 0.0007657984263556084}",0.9965588460361755,3,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,15,"Megan and Kristine were looking after the neighbor's children one afternoon. The kids were energetic, enthusiastic, and well behaved. On the way home, Kristine said, ""Those kids were not fun at all."" What does Kristine want to convey?","[1, 3, 4, 2]","['IncorrectLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Megan and Kristine were looking after the neighbor's children one afternoon. The kids were energetic, enthusiastic, and well behaved. On the way home, Kristine said, ""Those kids were not fun at all."" What does Kristine want to convey?
+Options:
+1) Babysitting was an unpleasant experience.
+2) Babysitting does not pay well.
+3) Rock music should be prohibited. 
+4) Babysitting was an enjoyable experience.
+Answer: ",3,1,True,"{'1': 0.9514505995466945, '2': 0.04437417865112563, '3': 0.0037278869097126465, '4': 0.00044733489246727426}",0.00044733489246727426,1,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,16,"Laura and Lynn were having coffee at a local caf&eacute;. They were talking about a boring date that Laura had had the night before. They had watched old reruns of cartoons all evening. Lynn said, ""That sounds so exciting.""  What did Lynn want to convey?","[4, 3, 2, 1]","['IncorrectAssociate', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectLiteral']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectAssociate']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Laura and Lynn were having coffee at a local caf&eacute;. They were talking about a boring date that Laura had had the night before. They had watched old reruns of cartoons all evening. Lynn said, ""That sounds so exciting.""  What did Lynn want to convey?
+Options:
+1) Laura needs a babysitter.
+2) Laura got food poisoning.
+3) Laura had a dull experience.
+4) Laura had a thrilling experience.
+Answer: ",3,3,True,"{'1': 0.0009591624851795271, '2': 0.0021955039645659606, '3': 0.9078263634296401, '4': 0.08901897012061441}",0.9078263634296401,3,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,17,"While Tom and a new acquaintance from work, Sara, were chatting at a party, they noticed a colleague across the room. She was standing alone holding a drink and a CD. Tom points at the girl and comments:  ""The life of the party, right there."" What did Tom want to convey?","[2, 4, 1, 3]","['CorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral', 'IncorrectAssociate']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: While Tom and a new acquaintance from work, Sara, were chatting at a party, they noticed a colleague across the room. She was standing alone holding a drink and a CD. Tom points at the girl and comments:  ""The life of the party, right there."" What did Tom want to convey?
+Options:
+1) Their colleague is quite unsociable.
+2) Their colleague has good taste in fashion.
+3) Their colleague is very sociable.
+4) Their colleague has good taste in music.
+Answer: ",3,3,True,"{'1': 0.0010835141540340462, '2': 0.0038468609852860096, '3': 0.9921313291855989, '4': 0.0029382956750810376}",0.0010835141540340462,3,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,18,"Jane and her best friend, Arthur, were selling chocolates door to door to raise money for a charity event. Jane and Arthur approached a house and tried to sell their candy to a mean couple. As they walked away, Jane comments: ""People in this community are so nice!""  What did Jane want to convey?","[3, 4, 1, 2]","['IncorrectAssociate', 'IncorrectNonSequitur', 'IncorrectLiteral', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Jane and her best friend, Arthur, were selling chocolates door to door to raise money for a charity event. Jane and Arthur approached a house and tried to sell their candy to a mean couple. As they walked away, Jane comments: ""People in this community are so nice!""  What did Jane want to convey?
+Options:
+1) It is a community of chocolate lovers.
+2) It is a community of animal lovers.
+3) It is an amicable community.
+4) It is an unfriendly community.
+Answer: ",3,3,True,"{'1': 0.0008893692312166942, '2': 0.0026952233654833017, '3': 0.9953358736035237, '4': 0.0010795337997762963}",0.0010795337997762963,3,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,19,"Penny, Juanita, and Jill have tickets to a basketball game. At halftime, Juanita offers to go get some drinks. Forty minutes later, she finally returns, and Jill remarks, ""That was quick."" What did Jill want to convey?","[4, 2, 3, 1]","['IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectLiteral']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Penny, Juanita, and Jill have tickets to a basketball game. At halftime, Juanita offers to go get some drinks. Forty minutes later, she finally returns, and Jill remarks, ""That was quick."" What did Jill want to convey?
+Options:
+1) Juanita has the best cat.  
+2) Juanita is always so slow.
+3) Juanita has the view of the game.
+4) Juanita is always so fast.
+Answer: ",3,2,True,"{'1': 0.009825012378193821, '2': 0.948752151583183, '3': 0.019986906175777072, '4': 0.021435929862846134}",0.948752151583183,2,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,20,"Mark gave his former colleague Krista tickets to a lecture where he was a guest speaker. Within the first 20 minutes of the lecture, the audience started to leave. The next day Krista talked to Mary about the lecture. Krista said: "" Oh, Mark held the audience's attention so well."" What did Krista want to convey?","[3, 1, 2, 4]","['IncorrectAssociate', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonSequitur']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mark gave his former colleague Krista tickets to a lecture where he was a guest speaker. Within the first 20 minutes of the lecture, the audience started to leave. The next day Krista talked to Mary about the lecture. Krista said: "" Oh, Mark held the audience's attention so well."" What did Krista want to convey?
+Options:
+1) Mark's speech was on captivating topic.
+2) Mark is a great speaker.
+3) Mark's speaking skills leave much to be desired.
+4) Mark's speech was about ants.  
+Answer: ",3,2,True,"{'1': 0.04367314044144366, '2': 0.941605607545998, '3': 0.012744126868129778, '4': 0.0019771251444284806}",0.012744126868129778,2,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,21,"Tracy was in a dance recital and invited her roommate Steve to watch. Tracy tripped many times during her performance. The next day Steve was talking to Dawn about the recital. Steve said: ""Some people have such natural grace!"" What did Steve want to convey?","[3, 4, 2, 1]","['IncorrectAssociate', 'IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectLiteral']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Tracy was in a dance recital and invited her roommate Steve to watch. Tracy tripped many times during her performance. The next day Steve was talking to Dawn about the recital. Steve said: ""Some people have such natural grace!"" What did Steve want to convey?
+Options:
+1) Tracy's dancing outfit is impressive.
+2) Tracy's math skills are impressive.  
+3) Tracy is not a good dancer.
+4) Tracy is a great dancer.
+Answer: ",3,3,True,"{'1': 0.004399853014155798, '2': 0.014984965514722486, '3': 0.9726505268964142, '4': 0.00796465457470761}",0.9726505268964142,3,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,22,"John finished the race way ahead of the other competitors. His friend laughed and said to him, ""You are so slow!"" What did his friend want to convey?","[4, 3, 2, 1]","['IncorrectNonSequitur', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectLiteral']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: John finished the race way ahead of the other competitors. His friend laughed and said to him, ""You are so slow!"" What did his friend want to convey?
+Options:
+1) John needs new computer. 
+2) John needs new running shoes.
+3) John is an outstanding runner.
+4) John is not a good runner.
+Answer: ",3,4,True,"{'1': 0.0007952648682265287, '2': 0.0018906507404259333, '3': 0.00535656259886542, '4': 0.9919575217924822}",0.00535656259886542,4,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,23,"The Jones' had hired a new gardener. After a week the lawn was looking particularly unkempt. John remarked to his wife, ""He does such a good job!"" What did John want to convey?","[1, 4, 3, 2]","['IncorrectLiteral', 'IncorrectNonSequitur', 'IncorrectAssociate', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: The Jones' had hired a new gardener. After a week the lawn was looking particularly unkempt. John remarked to his wife, ""He does such a good job!"" What did John want to convey?
+Options:
+1) He is happy with the new gardener.
+2) He likes thrillers. 
+3) He likes daisies.
+4) He is unhappy with the new gardener.
+Answer: ",3,1,True,"{'1': 0.5890527856095511, '2': 0.0841717621891924, '3': 0.0519091170359763, '4': 0.27486633516528025}",0.27486633516528025,1,False,IncorrectLiteral,tk-instruct-3b-def-pos
+IV,24,"It was the night before her exam and Tilly had read none of the course texts. Her brother said, ""I see your revision is going well.""  What did he want to convey?","[2, 4, 1, 3]","['CorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral', 'IncorrectAssociate']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: It was the night before her exam and Tilly had read none of the course texts. Her brother said, ""I see your revision is going well.""  What did he want to convey?
+Options:
+1) Tilly is unready for the exam.
+2) Tilly cannot find the sneakers.
+3) Tilly is ready for the exam.
+4) Tilly cannot find the textbook.
+Answer: ",3,1,True,"{'1': 0.6270692983242757, '2': 0.11956555853679245, '3': 0.22070470760574923, '4': 0.032660435533182666}",0.6270692983242757,1,True,CorrectNonLiteral,tk-instruct-3b-def-pos
+IV,25,"Barb and Tony went to a high school reunion. Barb was running late and came underdressed. Tony commented, ""Classy outfit."" What did Tony want to convey?","[1, 3, 2, 4]","['IncorrectLiteral', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectNonSequitur']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Barb and Tony went to a high school reunion. Barb was running late and came underdressed. Tony commented, ""Classy outfit."" What did Tony want to convey?
+Options:
+1) He liked her choice of dress.
+2) He thought that Barb forgot her purse in the hall.
+3) He thought that her dress was not appropriate for the occasion.
+4) He thought that Barb forgot to call the cab.
+Answer: ",3,3,True,"{'1': 0.00043551700608776024, '2': 0.0022678366176587745, '3': 0.9966194719474062, '4': 0.0006771744288473685}",0.9966194719474062,3,True,CorrectNonLiteral,tk-instruct-3b-def-pos

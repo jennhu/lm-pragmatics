@@ -1,0 +1,100 @@
+IV	1	1	The dress is fitting well.
+IV	2	1	Shane was paying attention when Christian was talking.
+IV	3	1	Phil is a great basketball player.
+IV	4	1	Patrick is very cautious.
+IV	5	1	Tom's idea to go to the beach was genius. 
+IV	6	1	He enjoys listening to his kids fighting.
+IV	7	1	The game was outstanding.
+IV	8	1	Mark is an exceptional player.
+IV	9	1	Tom tidied up his room.
+IV	10	1	He is happy that Callie made it to the party.
+IV	11	1	The student is smart.
+IV	12	1	It is too hot.
+IV	13	1	He is happy with his work.
+IV	14	1	He is excited about the job offer.
+IV	15	1	Babysitting was an unpleasant experience.
+IV	16	1	Laura had a thrilling experience.
+IV	17	1	Their colleague is very sociable.
+IV	18	1	It is an amicable community.
+IV	19	1	Juanita is always so fast.
+IV	20	1	Mark is a great speaker.
+IV	21	1	Tracy is a great dancer.
+IV	22	1	John is not a good runner.
+IV	23	1	He is happy with the new gardener.
+IV	24	1	Tilly is ready for the exam.
+IV	25	1	He liked her choice of dress.
+IV	1	2	Lara needs to get a dress of a shorter length.
+IV	2	2	Shane was not paying attention when Christian was talking.
+IV	3	2	Phil's basketball skills could be better.
+IV	4	2	Patrick is careless.
+IV	5	2	Tom's idea to go to the beach was awful.
+IV	6	2	He does not want to listen to his kids' arguments.
+IV	7	2	The game was a disaster.
+IV	8	2	Mark isn't a good player.
+IV	9	2	Tom's room is still messy.
+IV	10	2	He is annoyed that Callie showed up late.
+IV	11	2	The student is not very clever.
+IV	12	2	It is too cold.
+IV	13	2	He is unhappy with his work.
+IV	14	2	He is disappointed with the job offer. 
+IV	15	2	Babysitting was an enjoyable experience.
+IV	16	2	Laura had a dull experience.
+IV	17	2	Their colleague is quite unsociable.
+IV	18	2	It is an unfriendly community.
+IV	19	2	Juanita is always so slow.
+IV	20	2	Mark's speaking skills leave much to be desired.
+IV	21	2	Tracy is not a good dancer.
+IV	22	2	John is an outstanding runner.
+IV	23	2	He is unhappy with the new gardener.
+IV	24	2	Tilly is unready for the exam.
+IV	25	2	He thought that her dress was not appropriate for the occasion.
+IV	1	3	Simon does not like the color of this dress.
+IV	2	3	Shane's hearing improved greatly.
+IV	3	3	Phil's blocking is impressive.
+IV	4	3	Patrick is allergic to noodles.
+IV	5	3	Tom forgot his sunscreen.
+IV	6	3	AC gives them some needed cool.
+IV	7	3	The game ended too late.
+IV	8	3	Mark forgot to thank his caddy.
+IV	9	3	Tom cannot find a vacuum.
+IV	10	3	He is hungry and wants to eat Callie's salad.
+IV	11	3	The entrance exam is unfair. 
+IV	12	3	It is too loud.
+IV	13	3	He needs to polish his style.
+IV	14	3	He is glad to be employed
+IV	15	3	Babysitting does not pay well.
+IV	16	3	Laura got food poisoning.
+IV	17	3	Their colleague has good taste in music.
+IV	18	3	It is a community of chocolate lovers.
+IV	19	3	Juanita has the view of the game.
+IV	20	3	Mark's speech was on captivating topic.
+IV	21	3	Tracy's dancing outfit is impressive.
+IV	22	3	John needs new running shoes.
+IV	23	3	He likes daisies.
+IV	24	3	Tilly cannot find the textbook.
+IV	25	3	He thought that Barb forgot her purse in the hall.
+IV	1	4	Simon has to get back to work.
+IV	2	4	Shane needs to see an eye doctor.
+IV	3	4	Phil is a great student.
+IV	4	4	Patrick pays a lot of attention to fashion.
+IV	5	4	Tom forgot his passport.
+IV	6	4	He remembers about his wife's birthday.
+IV	7	4	The game of chess was over.    
+IV	8	4	Mark forgot to thank his dentist.  
+IV	9	4	Tom cannot find a lawyer. 
+IV	10	4	He is tired and is going to bed.
+IV	11	4	The pencils need to be sharpened.
+IV	12	4	It is too bright. 
+IV	13	4	He needs to buy a new car.
+IV	14	4	He is tired of jogging every morning.
+IV	15	4	Rock music should be prohibited. 
+IV	16	4	Laura needs a babysitter.
+IV	17	4	Their colleague has good taste in fashion.
+IV	18	4	It is a community of animal lovers.
+IV	19	4	Juanita has the best cat.  
+IV	20	4	Mark's speech was about ants.  
+IV	21	4	Tracy's math skills are impressive.  
+IV	22	4	John needs new computer. 
+IV	23	4	He likes thrillers. 
+IV	24	4	Tilly cannot find the sneakers.
+IV	25	4	He thought that Barb forgot to call the cab.

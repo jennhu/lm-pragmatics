@@ -1,0 +1,100 @@
+MPV	1	1	All houses in this town have chimneys.
+MPV	2	1	The baby in his wife's womb is the size of an egg.
+MPV	3	1	The investors enjoy picking nuts as much as squirrels do.
+MPV	4	1	His girlfriend wore clothes made of polyester.
+MPV	5	1	Their kids eat too many candies.
+MPV	6	1	The lady wears some jewelry designed to look like stars.
+MPV	7	1	The model wore a costume made of blue feathers.
+MPV	8	1	Mary and her family are related to the queen.
+MPV	9	1	There were a lot of musicians and singers performing on the promenade.
+MPV	10	1	Jessica finished the sailing race.
+MPV	11	1	She is not paying attention when walking and often steps on her little brothers by accident.
+MPV	12	1	The newly hired person can toss and catch objects in the air.
+MPV	13	1	There were a lot of tropical trees in that store.
+MPV	14	1	The dancers portrayed butterflies in the show.
+MPV	15	1	Sally is coming down with a cold.
+MPV	16	1	There is a sheep living next to them.
+MPV	17	1	The book is in bad shape. 
+MPV	18	1	Sam has too much food on his plate.
+MPV	19	1	The new sales manager is too young.
+MPV	20	1	They enjoy Italian cuisine.
+MPV	1	2	The town is not one of the cleanest ones.
+MPV	2	2	Mike and his wife are very much in love with each other.
+MPV	3	2	They buy stocks hoping for future profit.  
+MPV	4	2	His girlfriend's behavior was not very natural.
+MPV	5	2	Their kids always stick together.
+MPV	6	2	The lady's jewelry is shining very brightly.
+MPV	7	2	The model stood out at the fashion show.
+MPV	8	2	The queen cares about you from afar.
+MPV	9	2	It was a very romantic night.
+MPV	10	2	Jessica finished her talk successfully.
+MPV	11	2	She can make her brothers do whatever she wishes.
+MPV	12	2	The newly hired person is good at manipulating many things at once.
+MPV	13	2	The store was complete chaos.
+MPV	14	2	The dancers flitted around the stage.
+MPV	15	2	Sally does not show any emotions.
+MPV	16	2	Their neigbor is a follower.
+MPV	17	2	The plot of the book lacks important components.
+MPV	18	2	Sam has too many things to take care of.
+MPV	19	2	The new sales manager is very inexperienced. 
+MPV	20	2	They are meant to be together.
+MPV	1	3	The people living in this town are very welcoming.
+MPV	2	3	Mike is worried that the bird flu virus affected their baby.
+MPV	3	3	The investors dress and eat well.
+MPV	4	3	The girl made a good impression on Mark's mom
+MPV	5	3	Their kids need to stick to a diet.
+MPV	6	3	The lady's jewelry broke into many pieces.
+MPV	7	3	The model's skin turned blue.
+MPV	8	3	People of the country love the pies that the queen bakes.
+MPV	9	3	It was too dark to see any singers performing on the promenade.
+MPV	10	3	Jessica got interested in sailing.
+MPV	11	3	Their daughter finally started to walk.
+MPV	12	3	The newly hired person used to work in a circus show.
+MPV	13	3	The store that he went to sold some exotic pets.
+MPV	14	3	There were too many dancers in this show.
+MPV	15	3	Sally is very emotional and cries often.
+MPV	16	3	Their neighbor has a unique haircut.
+MPV	17	3	The book is about cheese making in Switzerland. 
+MPV	18	3	Sam should think about his dietary habits.
+MPV	19	3	The new sales manager lives off of the grid.
+MPV	20	3	He would love some pasta for dinner.
+MPV	1	4	Mary found a job at a company installing chimneys.
+MPV	2	4	Their baby is growing bigger every day.
+MPV	3	4	Bob is allergic to nuts.
+MPV	4	4	His girlfriend has a beautiful smile. 
+MPV	5	4	Their kids argue too much.
+MPV	6	4	Mark did not like the lady's jewelry.
+MPV	7	4	The model came to the show with her pet bird.
+MPV	8	4	The queen has a lot of relatives. 
+MPV	9	4	Abby wants to attend a concert with Kyle.
+MPV	10	4	Jessica's talk was a disaster. 
+MPV	11	4	Their daughter should be less aggressive towards her brothers.
+MPV	12	4	The newly hired person dressed up as a clown.
+MPV	13	4	There were a lot of mosquitoes in that store.
+MPV	14	4	She did not see any dancers in the show.
+MPV	15	4	Sally's hands are always cold. 
+MPV	16	4	Their neighbor always wears wool sweaters.
+MPV	17	4	The book smells funny.
+MPV	18	4	Sam should share food with his classmates. 
+MPV	19	4	The new sales manager used to work as a babysitter. 
+MPV	20	4	His fiance has bright red lips.
+MPV	1	5	The town is a chimney.
+MPV	2	5	Their baby is an egg.
+MPV	3	5	Squirrels were hired to work in the company. 
+MPV	4	5	His girlfriend is made of polyester.
+MPV	5	5	Their kids are sweet candy.
+MPV	6	5	The lady wears bursting stars.
+MPV	7	5	The blue canary worked as a model at the show.
+MPV	8	5	The queen is an aunt of everyone living in the country.
+MPV	9	5	He could hear the sun singing songs.
+MPV	10	5	Jessica was giving a talk about sailing.  
+MPV	11	5	She enjoys long walks with her brothers.
+MPV	12	5	The newly hired person has too many excuses for being late.
+MPV	13	5	The store was in a jungle.
+MPV	14	5	Butterflies were dancing on the stage.
+MPV	15	5	Sally is an ice sculpture.
+MPV	16	5	Their neigbor is charismatic.
+MPV	17	5	Many pages of the book are missing some parts.
+MPV	18	5	Sam should finish all the food that is on his plate.
+MPV	19	5	"The new sales manager is a baby, who lives in the woods."
+MPV	20	5	The tomato sauce that she makes goes well with his pasta.

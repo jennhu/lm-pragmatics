@@ -1,0 +1,181 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+DV,1,"Henry responds: ""Reading."" Why has Henry responded in such a way?","[1, 4, 2, 3]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention']",2,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Henry responds: ""Reading."" Why has Henry responded in such a way?
+Options:
+1) He has been reading for some time.
+2) He does not want to get into trouble for not studying. 
+3) He wants his mom to believe that he has been watching TV.
+4) He does not want to offend his mom by not reading the books that she gave him.  
+Answer: ",4,2,True,"{'1': 0.030228341348034593, '2': 0.9418726548841071, '3': 0.023829641323769534, '4': 0.004069362444088801}",0.9418726548841071,2,True,CorrectNonLiteral,text-davinci-002
+DV,2," He says: ""Thanks. Really, I love it."" Why has Robert responded in such a way?","[4, 3, 1, 2]","['IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap']",2,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario:  He says: ""Thanks. Really, I love it."" Why has Robert responded in such a way?
+Options:
+1) He does not like to celebrate his birthday and wants it to be over with. 
+2) He does not want to hurt Monica by saying that he dislikes the gift.
+3) He likes the gift very much.
+4) He wants Monica to understand that he dislikes her gift.
+Answer: ",4,2,True,"{'1': 7.1582329236995844e-06, '2': 0.5119043919678707, '3': 0.48808719743747625, '4': 1.2523617293406875e-06}",0.5119043919678707,2,True,CorrectNonLiteral,text-davinci-002
+DV,3,"Dan says, ""The dog knocked it over."" Why has Dan responded in such a way?","[3, 1, 2, 4]","['IncorrectNonLiteralSocialConvention', 'IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Dan says, ""The dog knocked it over."" Why has Dan responded in such a way?
+Options:
+1) Dan finds this vase ugly and wants to get rid of it.
+2) Dan thinks that the dog has knocked over the vase.
+3) Dan wants his mom to know that he knocked it over.
+4) Dan does not want his mom to be angry with him for breaking the vase.
+Answer: ",4,2,True,"{'1': 0.00011550094566866946, '2': 0.9983800251496752, '3': 0.0014641856806674168, '4': 4.028822398876555e-05}",4.028822398876555e-05,2,False,IncorrectLiteral,text-davinci-002
+DV,4,"Peter tells his mother: ""I don't think I can eat, I have a terrible stomach-ache."" Why has Peter responded in such a way?","[4, 2, 3, 1]","['IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectLiteral']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Peter tells his mother: ""I don't think I can eat, I have a terrible stomach-ache."" Why has Peter responded in such a way?
+Options:
+1) He does not want to get in trouble with mom for eating boiled sprouts.
+2) He wants to avoid eating boiled sprouts.
+3) He wants to have boiled sprouts every night.
+4) He is experiencing some severe stomach pain.  
+Answer: ",4,4,True,"{'1': 3.0449948238548773e-05, '2': 0.00023824160224927105, '3': 5.865655269543369e-05, '4': 0.9996726518968168}",0.00023824160224927105,4,False,IncorrectLiteral,text-davinci-002
+DV,5,"When her aunt asks her whether she likes the gift, Mandy says: ""It's just what I wanted!"" Why has Mandy responded in such a way?","[3, 4, 2, 1]","['CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectLiteral']",1,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: When her aunt asks her whether she likes the gift, Mandy says: ""It's just what I wanted!"" Why has Mandy responded in such a way?
+Options:
+1) She does not want to hurt her aunt by showing that she is upset with the present.
+2) She thinks that she can return a goldfish to the pet store and get a refund.
+3) She wants her aunt to know that this is not the present that she wanted.
+4) She is very much fond of goldfish.
+Answer: ",4,1,True,"{'1': 0.9697199561556603, '2': 0.00043263632880020437, '3': 8.719922888396961e-05, '4': 0.02976020828665556}",0.9697199561556603,1,True,CorrectNonLiteral,text-davinci-002
+DV,6,"Lars says: ""Oh, yes, it was really tasty."" Why has Lars responded in such a way?","[2, 4, 1, 3]","['IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention', 'IncorrectLiteral', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lars says: ""Oh, yes, it was really tasty."" Why has Lars responded in such a way?
+Options:
+1) He dislikes the unusual taste of Marika's pie.
+2) He wants Marika to know what a great baker she is. 
+3) He likes the unusual taste of Marika's pie.
+4) He does not want Marika to feel bad about her mediocre baking skills.
+Answer: ",4,2,True,"{'1': 5.265122731179582e-05, '2': 0.9759543668969608, '3': 0.023984170976100137, '4': 8.810899627325465e-06}",8.810899627325465e-06,2,False,IncorrectNonLiteralSocialConvention,text-davinci-002
+DV,7,"Sally answered, ""Yes, I had no idea I was going to get a MacBook!"" Why has Sally responded in such a way?","[1, 4, 3, 2]","['IncorrectLiteral', 'IncorrectNonLiteralSocialConvention', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Sally answered, ""Yes, I had no idea I was going to get a MacBook!"" Why has Sally responded in such a way?
+Options:
+1) Sally forgot that the computer was the present that she heard about last night.
+2) Sally wanted to confess that she overheard the conversation and spoiled the surprise.
+3) Sally thought that the conversation was about someone else's present.
+4) Sally didn't want to admit that she had overheard her mother and spoiled the surprise.
+Answer: ",4,4,True,"{'1': 0.01843702443656774, '2': 0.39452205324944883, '3': 0.011472656866969945, '4': 0.5755682654470134}",0.5755682654470134,4,True,CorrectNonLiteral,text-davinci-002
+DV,8,"Oscar replied, ""Yes, the day of bed rest cured me."" Why has Oscar responded in such a way?","[3, 4, 1, 2]","['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral']",4,"['IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Oscar replied, ""Yes, the day of bed rest cured me."" Why has Oscar responded in such a way?
+Options:
+1) He did spend some time resting in bed.
+2) He realized that the boss was at the game and saw him.
+3) He wanted to be honest with his boss.
+4) He did not want to get in trouble with his boss by admitting that he lied to him.
+Answer: ",4,3,True,"{'1': 0.4418421900653065, '2': 0.07911867593466317, '3': 0.23029411486167956, '4': 0.24874501913835087}",0.24874501913835087,1,False,IncorrectLiteral,text-davinci-002
+DV,9,"Ed says to his aunt, ""Thank you for such a great gift."" Why has Ed responded like this?","[1, 3, 4, 2]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention', 'IncorrectNonLiteralLexicalOverlap']",2,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Ed says to his aunt, ""Thank you for such a great gift."" Why has Ed responded like this?
+Options:
+1) He likes the socks that his aunt gave him.
+2) He does not want to show that he is disappointed with the gift so that he doesn't offend his aunt.
+3) He realizes that rollerblading is unsafe and is happy that he did not get rollerblades.
+4) He wants his aunt to realize that he expected to get a different gift.
+Answer: ",4,2,True,"{'1': 0.04440427694608795, '2': 0.9555675836946352, '3': 2.7581533463891658e-05, '4': 5.578258128951309e-07}",0.9555675836946352,2,True,CorrectNonLiteral,text-davinci-002
+DV,10,"Taro said to Hirosho, ""Don't worry about it, I don't care."" Why has Taro responded like this?","[1, 3, 4, 2]","['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Taro said to Hirosho, ""Don't worry about it, I don't care."" Why has Taro responded like this?
+Options:
+1) This was one of Taro's oldest remote control cars that he did not like too much.
+2) Taro wanted Hiroshi to feel bad for breaking his toy.
+3) Taro was sad because he liked this toy.
+4) Friendship was more important for Taro than a broken remote control car.
+Answer: ",4,4,True,"{'1': 0.02003529670979164, '2': 0.4210691843488308, '3': 0.001026415313213942, '4': 0.5578691036281637}",0.5578691036281637,4,True,CorrectNonLiteral,text-davinci-002
+DV,11,"John responds, ""It looks great!"" Why has John responded like this?","[4, 1, 2, 3]","['IncorrectNonLiteralSocialConvention', 'IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: John responds, ""It looks great!"" Why has John responded like this?
+Options:
+1) John does not care about Katie or her haircut.
+2) He thinks that a new haircut suits his wife.
+3) He wants to stress out that this haircut does not compliment Katie.
+4) He sees how excited Katie is about the haircut and does not want to ruin her good mood.
+Answer: ",4,2,True,"{'1': 1.9521144288846447e-05, '2': 0.9942376540286646, '3': 1.65556130367492e-05, '4': 0.005726269214009842}",0.005726269214009842,2,False,IncorrectLiteral,text-davinci-002
+DV,12,"Lucy says, ""Of course, you know I think you're funny!"" Why has Lucy responded like this?","[3, 2, 4, 1]","['CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention', 'IncorrectLiteral']",1,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lucy says, ""Of course, you know I think you're funny!"" Why has Lucy responded like this?
+Options:
+1) Lucy did not want Mary to feel awkward at this party.
+2) Lucy wanted Mary to understand that her jokes were not humorous.
+3) Lucy was afraid to get in trouble with guests of the party for telling Mary the truth.  
+4) Lucy thought that that Mary's jokes were hilarious. 
+Answer: ",4,1,True,"{'1': 0.8852602829052632, '2': 0.0018531398316217942, '3': 0.0014936421104050099, '4': 0.11139293515271005}",0.8852602829052632,1,True,CorrectNonLiteral,text-davinci-002
+DV,13,"Jim answers, ""No, definitely not."" Why has Jim responded like this?","[4, 1, 3, 2]","['IncorrectNonLiteralSocialConvention', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap']",3,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Jim answers, ""No, definitely not."" Why has Jim responded like this?
+Options:
+1) Jim missed Mike's presentation and had no idea whether Mike was nervous or not.
+2) Jim thought that Mike did not seem to be that nervous after all.
+3) He wanted to support Mike and not make him even more nervous during public speaking in the future.
+4) Jim wanted Mike to understand that he needs to deal with his nervousness during public speaking.
+Answer: ",4,2,True,"{'1': 0.026134060034159193, '2': 0.8208595522793686, '3': 0.12970732234350815, '4': 0.0232990653429642}",0.12970732234350815,2,False,IncorrectLiteral,text-davinci-002
+DV,14,"Jane answers, ""Everything is fine, dear. You did a great job of cleaning the apartment."" Why has Jane responded like this?","[4, 3, 2, 1]","['IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention', 'IncorrectLiteral']",2,"['IncorrectLiteral', 'IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Jane answers, ""Everything is fine, dear. You did a great job of cleaning the apartment."" Why has Jane responded like this?
+Options:
+1) She wants to show that she is angry that Anthony has cleaned the apartment.
+2) She wants to show that she appreciates that Anthony has cleaned the apartment.
+3) She shows him how angry she is with him for throwing out things without her consent.
+4) She is happy that Anthony has cleaned the apartment and does not care about the picture that got thrown away.
+Answer: ",4,2,True,"{'1': 1.2619904169816554e-06, '2': 0.9999887842719003, '3': 9.594645386038242e-06, '4': 3.5909229678554824e-07}",0.9999887842719003,2,True,CorrectNonLiteral,text-davinci-002
+DV,15,"She replies, ""Yes, that's exactly what I'm craving right now!""","[1, 3, 2, 4]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention']",2,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: She replies, ""Yes, that's exactly what I'm craving right now!""
+Options:
+1) She is excited to eat the donuts because she is craving them.
+2) She did not want to disappoint Bob by telling him the truth.
+3) She wanted Bob to understand that she did not want any more donuts.
+4) She did not want to show Bob that she was angry by telling him the truth. 
+Answer: ",4,1,True,"{'1': 0.8827888791156969, '2': 0.11715037395079818, '3': 5.750222461429231e-05, '4': 3.2447088906192653e-06}",0.11715037395079818,1,False,IncorrectLiteral,text-davinci-002
+DV,16," Brianna responds: ""I am looking forward to it."" Why has Brianna responded like this?","[4, 3, 1, 2]","['IncorrectNonLiteralSocialConvention', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap']",2,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario:  Brianna responds: ""I am looking forward to it."" Why has Brianna responded like this?
+Options:
+1) She wants to learn how to cook spaghetti. 
+2) She wants to keep a good relationship with Derek and his family.
+3) She thinks that spending dinner with Derek's parents is a good idea.
+4) She thinks that spending dinner with Derek's parents is a bad idea.
+Answer: ",4,2,True,"{'1': 9.964293904537623e-05, '2': 0.9995251334212009, '3': 0.0003732680844682776, '4': 1.955555285479171e-06}",0.9995251334212009,2,True,CorrectNonLiteral,text-davinci-002
+DV,17,"Samantha says, ""Of course not, I have never considered breaking up with you."" Why has Samantha responded like this?","[1, 3, 2, 4]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectNonLiteralSocialConvention']",2,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Samantha says, ""Of course not, I have never considered breaking up with you."" Why has Samantha responded like this?
+Options:
+1) She has never thought seriously about breaking up with him.
+2) She values their current relationship and does not want to jeopardize it by discussing her past thoughts.
+3) She wants Andy to realize that she has thought about breaking up with him.
+4) She is disappointed with their current relationship and wants to end it.  
+Answer: ",4,2,True,"{'1': 0.02555783445710202, '2': 0.9742712659669218, '3': 0.0001590250410979147, '4': 1.1874534878195456e-05}",0.9742712659669218,2,True,CorrectNonLiteral,text-davinci-002
+DV,18,"She says: ""It wasn't bad at all."" Why has Betty responded like this?","[3, 4, 2, 1]","['CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectLiteral']",1,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: She says: ""It wasn't bad at all."" Why has Betty responded like this?
+Options:
+1) Betty does not want to put additional stress on her partner by telling him the truth.
+2) Betty values her relationship with her partner and does not want to get into an argument with him. 
+3) Wisdom tooth removal was extremely painful for Betty.
+4) Wisdom tooth removal was not that painful for Betty after all.
+Answer: ",4,2,True,"{'1': 0.009770764826333309, '2': 0.49805212794569925, '3': 0.02582089495524627, '4': 0.4663562122727212}",0.009770764826333309,2,False,IncorrectNonLiteralSocialConvention,text-davinci-002
+DV,19,"Annie says, ""It was fun!"" Why has Annie responded like this?","[4, 1, 2, 3]","['IncorrectNonLiteralSocialConvention', 'IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Annie says, ""It was fun!"" Why has Annie responded like this?
+Options:
+1) Annie does not want to be friends with Mary any more.
+2) Annie had a great time with Mike.
+3) Annie wants Mary to know that the date was a disaster.
+4) Annie does not want to upset her friend.
+Answer: ",4,2,True,"{'1': 0.0006151959129762043, '2': 0.9970321296589442, '3': 0.0004850447112160125, '4': 0.0018676297168636457}",0.0018676297168636457,2,False,IncorrectLiteral,text-davinci-002
+DV,20,"Lisa responds: ""She is an awesome teacher."" Why has Lisa responded like this?","[4, 2, 1, 3]","['IncorrectNonLiteralSocialConvention', 'IncorrectNonLiteralLexicalOverlap', 'IncorrectLiteral', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'IncorrectNonLiteralLexicalOverlap', 'CorrectNonLiteral', 'IncorrectNonLiteralSocialConvention']",False,"Task: You will read short stories that describe two characters interacting with each other. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lisa responds: ""She is an awesome teacher."" Why has Lisa responded like this?
+Options:
+1) She does not want to be friends with Ellie any more.
+2) She is unhappy with the way Mrs. Smith teaches that class.
+3) She is happy with the way Mrs. Smith teaches that class.
+4) She does not want to hurt her friend by criticizing her mother.
+Answer: ",4,3,True,"{'1': 4.057480607276317e-05, '2': 0.00029955808358064957, '3': 0.9991973002849249, '4': 0.0004625668254216201}",0.0004625668254216201,3,False,IncorrectLiteral,text-davinci-002

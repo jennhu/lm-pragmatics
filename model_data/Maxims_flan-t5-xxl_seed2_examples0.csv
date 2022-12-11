@@ -1,0 +1,172 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_violated_maxims,randomized_true_answer,original_labels_complex,original_violated_maxims,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+MV,1,"Bob is having a lunch meeting with his boss, Mr. James. Mr. James asks Bob: ""Did you like the presentation that I gave at the board meeting yesterday?"" Bob responds: ""I cannot wait for our trip to Japan next week."" Why has Bob responded like this?","[3, 1, 4, 2]","['CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",1,"['IncorrectLiteral', 'IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectAssociate']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Bob is having a lunch meeting with his boss, Mr. James. Mr. James asks Bob: ""Did you like the presentation that I gave at the board meeting yesterday?"" Bob responds: ""I cannot wait for our trip to Japan next week."" Why has Bob responded like this?
+Options:
+1) He disliked the talk that his boss gave but does not want to criticize his boss.  
+2) He is excited about the upcoming trip to Japan and does not want to talk about anything else.
+3) He wants to avoid going to Japan next week and wants to discuss it with his boss. 
+4) He liked the talk that his boss gave but does not want to tell him about it.
+Answer: ",2,2,True,"{'1': 0.06748308324784442, '2': 0.9148717017587059, '3': 0.005999897606777751, '4': 0.011645317386671962}",0.06748308324784442,2,False,IncorrectLiteral,flan-t5-xxl
+MV,2,"Richard came to visit his friend, Alex. Alex is an artist. Richard brought one of his artworks to Alex and asked Alex: ""What do you think of my painting?"" Alex responds, ""Have you noticed that I painted the walls?"" Why has Alex responded like this?","[2, 3, 4, 1]","['CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate', 'IncorrectLiteral']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Richard came to visit his friend, Alex. Alex is an artist. Richard brought one of his artworks to Alex and asked Alex: ""What do you think of my painting?"" Alex responds, ""Have you noticed that I painted the walls?"" Why has Alex responded like this?
+Options:
+1) Alex thinks that Richard's painting is mediocre.
+2) Alex wants Richards to help him paint the walls.
+3) Alex is afraid that Richard will become a better painter than he is. 
+4) Alex is proud of the painting job that he did.
+Answer: ",2,4,True,"{'1': 0.09595591061282836, '2': 0.011493589233293529, '3': 0.040600270288132755, '4': 0.8519502298657453}",0.09595591061282836,4,False,IncorrectLiteral,flan-t5-xxl
+MV,3,"Leslie and Jane are chatting at a coffee shop. Leslie asks, ""Who was that man that I saw you with last night?"" Jane responds, ""The latte is unbelievable here."" Why has Jane responded like this?","[2, 3, 1, 4]","['CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociate']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Leslie and Jane are chatting at a coffee shop. Leslie asks, ""Who was that man that I saw you with last night?"" Jane responds, ""The latte is unbelievable here."" Why has Jane responded like this?
+Options:
+1) She does not want to discuss the topic that Leslie has raised.
+2) The man who Leslie saw makes unbelievable lattes.
+3) She thinks that it is the best latte in the town.
+4) A coffee break is not a good time to discuss men.
+Answer: ",2,1,True,"{'1': 0.9696998593943679, '2': 0.002120020672495154, '3': 0.007686188315516397, '4': 0.020493931617620604}",0.9696998593943679,1,True,CorrectNonLiteral,flan-t5-xxl
+MV,4,"Kelsey is in a bad mood. Every minor thing irritates her. When she sees her husband watching a football game, she yells: ""Can you turn off the TV?"" Her husband replies: ""Beer and chips would be awesome. Thanks!"" Why has Kelsey's husband responded like this?","[2, 4, 3, 1]","['CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral', 'IncorrectLiteral']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Kelsey is in a bad mood. Every minor thing irritates her. When she sees her husband watching a football game, she yells: ""Can you turn off the TV?"" Her husband replies: ""Beer and chips would be awesome. Thanks!"" Why has Kelsey's husband responded like this?
+Options:
+1) He pretends that he did not understand his wife's comment because he wants to watch the game.
+2) He is excited about seeing his wife. 
+3) He is happy to turn off the TV right away and to spend more time with his wife.
+4) He is thankful for her offer of beer and chips.
+Answer: ",2,1,True,"{'1': 0.6319313772143783, '2': 0.024455924700065634, '3': 0.047150605805523986, '4': 0.2964620922800321}",0.6319313772143783,1,True,CorrectNonLiteral,flan-t5-xxl
+MV,5,"Mark is discussing Jane, a senior financial manager who he hired, with his colleague John. Mark asks: ""How is Jane managing her new position?"" Mark says: ""She has excellent handwriting and is always dressed so nicely."" Why has Mark responded like this?","[1, 4, 2, 3]","['IncorrectLiteral', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectNonLiteral']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim', 'RelevanceMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mark is discussing Jane, a senior financial manager who he hired, with his colleague John. Mark asks: ""How is Jane managing her new position?"" Mark says: ""She has excellent handwriting and is always dressed so nicely."" Why has Mark responded like this?
+Options:
+1) Mark's opinion of Jane as a financial manager is very high.
+2) Mark needs to get some new clothes.
+3) Mark's opinion of Jane as a financial manager is very low.
+4) Mark is fond of people who have good handwriting.
+Answer: ",2,1,True,"{'1': 0.8907581338819854, '2': 0.00784295951139609, '3': 0.02190096303308083, '4': 0.07949794357353755}",0.02190096303308083,1,False,IncorrectLiteral,flan-t5-xxl
+MV,6,"Lucy discusses her trip to Paris with her mom. Lucy says: ""I'd like to visit Vincent when I am in Paris. Where does he live?"" Her mom responds: ""Somewhere in France."" Why has Lucy's mom responded like this?","[2, 4, 3, 1]","['CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral', 'IncorrectLiteral']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lucy discusses her trip to Paris with her mom. Lucy says: ""I'd like to visit Vincent when I am in Paris. Where does he live?"" Her mom responds: ""Somewhere in France."" Why has Lucy's mom responded like this?
+Options:
+1) Lucy's mom does not know where exactly Vincent lives.
+2) Lucy's mom is afraid that Lucy will go to France.
+3) Lucy's mom is jealous that she is not going to Paris.
+4) Lucy's mom knows that Vincent lives somewhere in France.
+Answer: ",2,1,True,"{'1': 0.6724657789426378, '2': 0.01118005187622087, '3': 0.014796020982709959, '4': 0.3015581481984314}",0.6724657789426378,1,True,CorrectNonLiteral,flan-t5-xxl
+MV,7,"Luke missed a wedding reception and wants his wife Melanie to tell him about it. He asks: ""What were you served at the wedding?"" She responds: ""Some food."" Why has Melanie responded like this?","[1, 3, 2, 4]","['IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectLiteral']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",2,"['IncorrectAssociate', 'IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectLiteral']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Luke missed a wedding reception and wants his wife Melanie to tell him about it. He asks: ""What were you served at the wedding?"" She responds: ""Some food."" Why has Melanie responded like this?
+Options:
+1) The wedding is not about food.
+2) The food at the wedding was mediocre.
+3) The food at the wedding was outstanding.
+4) There was not a lot of food at the wedding.
+Answer: ",2,1,True,"{'1': 0.43641851628887723, '2': 0.17059015960149762, '3': 0.13062766378361562, '4': 0.26236366032600955}",0.17059015960149762,1,False,IncorrectAssociate,flan-t5-xxl
+MV,8,"Mary and Ken are having breakfast. Ken asks Mary: ""How would you like your tea, dear?"" Mary responds, ""In a cup."" Why has Mary responded like this?","[3, 1, 4, 2]","['IncorrectAssociate', 'IncorrectLiteral', 'IncorrectNonLiteral', 'CorrectNonLiteral']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mary and Ken are having breakfast. Ken asks Mary: ""How would you like your tea, dear?"" Mary responds, ""In a cup."" Why has Mary responded like this?
+Options:
+1) Mary is proud of the new cups that she got from Ken for her birthday.
+2) Mary wants Ken to serve her tea in a cup.
+3) Mary wants Ken to wash a cup that she sees in the sink.  
+4) Mary is irritated with Ken.
+Answer: ",2,2,True,"{'1': 0.007508798348647801, '2': 0.9913961531581829, '3': 0.0008702856189405092, '4': 0.00022476287422864812}",0.00022476287422864812,2,False,IncorrectLiteral,flan-t5-xxl
+MV,9,"George and Cindy are about to enter their favorite shoe shop in the mall. George asks Cindy: ""What would you like to buy?"" Cindy responds: ""A pair of shoes."" Why has Cindy responded like this?","[3, 2, 1, 4]","['IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociate']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: George and Cindy are about to enter their favorite shoe shop in the mall. George asks Cindy: ""What would you like to buy?"" Cindy responds: ""A pair of shoes."" Why has Cindy responded like this?
+Options:
+1) Cindy has an obsession with shoes and buys them on every occasion. 
+2) Cindy does not know what type of shoes she wants to buy.
+3) Cindy does not plan to buy anything but shoes in this store.
+4) Cindy is excited about going shopping.
+Answer: ",2,4,True,"{'1': 0.0445476771710743, '2': 0.02048182462871954, '3': 0.17702904953737741, '4': 0.7579414486628286}",0.02048182462871954,4,False,IncorrectAssociate,flan-t5-xxl
+MV,10,"Mike comes home from school. His mom asks him: ""What did you do at school today?"" Mike responds: ""some schoolwork."" Why has Mike responded like this?","[4, 2, 1, 3]","['IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociate']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral']","['QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim', 'QuantityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mike comes home from school. His mom asks him: ""What did you do at school today?"" Mike responds: ""some schoolwork."" Why has Mike responded like this?
+Options:
+1) He is upset that his dad is not at home.
+2) He does not want to talk about school with his mom.
+3) He has been doing lots of schoolwork at school.
+4) He is too excited to talk about this at the moment.
+Answer: ",2,2,True,"{'1': 0.022868422118792642, '2': 0.6135290932383357, '3': 0.35523844113783176, '4': 0.008364043505039885}",0.6135290932383357,2,True,CorrectNonLiteral,flan-t5-xxl
+MV,11,"Mark, who is a newlywed, is talking to his mom over the phone. His mom asks: ""Did Julie cook your dinner last night?"" Mark responds: ""Well, she placed a number of edible substances into a pot and then heated them until various chemical reactions took place."" Why has Mark responded like this?","[2, 1, 3, 4]","['CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectLiteral', 'IncorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",1,"['IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mark, who is a newlywed, is talking to his mom over the phone. His mom asks: ""Did Julie cook your dinner last night?"" Mark responds: ""Well, she placed a number of edible substances into a pot and then heated them until various chemical reactions took place."" Why has Mark responded like this?
+Options:
+1) Mark's wife has little experience with cooking.
+2) Mark's wife has a lot of experience with cooking.
+3) Mark's wife has been doing some scientific experiments instead of cooking.
+4) Mark's wife has been angry with Mark because he did not help her with dinner.  
+Answer: ",2,1,True,"{'1': 0.7377384195143075, '2': 0.021741916023594723, '3': 0.18119573009001366, '4': 0.05932393437208407}",0.7377384195143075,1,True,CorrectNonLiteral,flan-t5-xxl
+MV,12,"Lenny comes to the kitchen and asks his wife, Marcie: ""What will we have for breakfast?"" Marcie responds: ""A hard-boiled egg cooked in hot water and toast that is toasted evenly on both sides."" Why has Marcie responded in such a way?","[2, 1, 4, 3]","['CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lenny comes to the kitchen and asks his wife, Marcie: ""What will we have for breakfast?"" Marcie responds: ""A hard-boiled egg cooked in hot water and toast that is toasted evenly on both sides."" Why has Marcie responded in such a way?
+Options:
+1) Marcie thinks that her husband's expectations about breakfast are too high.
+2) Marcie wants Lenny to know how his breakfast was made.
+3) Marcie thinks that breakfast is the main meal of the day.
+4) Marcie is really good at cooking eggs and making toast.
+Answer: ",2,2,True,"{'1': 0.0922563648135629, '2': 0.6072280432236077, '3': 0.05630253953309198, '4': 0.2442130524297374}",0.0922563648135629,2,False,IncorrectLiteral,flan-t5-xxl
+MV,14,"Mike and Melissa are arguing about the state of secondary education in their state. Mike states: ""Standardized test scores are up 42% in our schools."" Melissa responds: ""And 47% of the kids didn't use the right pencil, 6% were chewing gum during the exam, and 32% yawned while completing their exams."" Why has Melissa responded like this?","[1, 4, 3, 2]","['IncorrectAssociate', 'IncorrectNonLiteral', 'IncorrectLiteral', 'CorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",4,"['IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mike and Melissa are arguing about the state of secondary education in their state. Mike states: ""Standardized test scores are up 42% in our schools."" Melissa responds: ""And 47% of the kids didn't use the right pencil, 6% were chewing gum during the exam, and 32% yawned while completing their exams."" Why has Melissa responded like this?
+Options:
+1) Melissa is very knowledgeable about the system of secondary education.
+2) Melissa thinks that kids attending schools lack subject knowledge. 
+3) Melissa thinks that statistical information is of great use in this debate.
+4) Melissa thinks that statistical information is useless in this debate.
+Answer: ",2,2,True,"{'1': 0.07616423262209843, '2': 0.5694523373863802, '3': 0.06987779941412932, '4': 0.2845056305773922}",0.2845056305773922,2,False,IncorrectNonLiteral,flan-t5-xxl
+MV,15,"Rosy notes to her friend Dan: ""Those strangers at the other end of the subway car are nice."" Dan replies: ""Yeah, I bet they have only sweet dreams, eat organic food, do yoga every morning, plant trees, feed homeless, and read a lot of good books."" Why has Dan responded like this?","[3, 1, 4, 2]","['IncorrectAssociate', 'IncorrectLiteral', 'IncorrectNonLiteral', 'CorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral']","['MannerMaxim', 'MannerMaxim', 'MannerMaxim', 'MannerMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Rosy notes to her friend Dan: ""Those strangers at the other end of the subway car are nice."" Dan replies: ""Yeah, I bet they have only sweet dreams, eat organic food, do yoga every morning, plant trees, feed homeless, and read a lot of good books."" Why has Dan responded like this?
+Options:
+1) He thinks that people who ride subways have many good habits.
+2) He knows these people and their lifestyle very well.
+3) He thinks that people who ride subways have many bad habits.
+4) He thinks that Rosy has no reason to believe that the strangers are nice.
+Answer: ",2,1,True,"{'1': 0.62968143517627, '2': 0.02469058731031978, '3': 0.051319351998153004, '4': 0.2943086255152571}",0.2943086255152571,1,False,IncorrectAssociate,flan-t5-xxl
+MV,16,"Berta often forgets to return money that she borrows from her friends. One day Berta asks her friend Freddie for $500. Freddie responds: ""Of course, but only when I fly to space."" Why has Freddie responded like this?","[1, 2, 3, 4]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Berta often forgets to return money that she borrows from her friends. One day Berta asks her friend Freddie for $500. Freddie responds: ""Of course, but only when I fly to space."" Why has Freddie responded like this?
+Options:
+1) Freddie can give Berta some money that he will get for his space expedition.
+2) Freddie will never give Berta any money.
+3) Freddie is ready to give money to Berta without any questions.
+4) Freddie considers giving the money to Berta. 
+Answer: ",2,4,True,"{'1': 0.20068660608100358, '2': 0.04977974073568146, '3': 0.053791147492695694, '4': 0.6957425056906194}",0.04977974073568146,4,False,IncorrectAssociate,flan-t5-xxl
+MV,17,"Lars and Katy are discussing their CEO. Lars says: ""People regard our CEO Mr. Smith as a real intellectual."" Katy responds: ""Sure, he is regarded as an intellectual by kindergarteners."" Why has Katy responded like this?","[1, 4, 3, 2]","['IncorrectLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral', 'CorrectNonLiteral']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lars and Katy are discussing their CEO. Lars says: ""People regard our CEO Mr. Smith as a real intellectual."" Katy responds: ""Sure, he is regarded as an intellectual by kindergarteners."" Why has Katy responded like this?
+Options:
+1) Katy agrees that Mr. Smith is a smart individual.
+2) Katy knows that Mr. Smith's kids are kindergarteners.
+3) Katy thinks that Mr. Smith works at a kindergarten.
+4) Katy doubts that Mr. Smith is a smart individual.
+Answer: ",2,4,True,"{'1': 0.005281639255394075, '2': 0.002976780108990287, '3': 0.012414363018621269, '4': 0.9793272176169945}",0.9793272176169945,4,True,CorrectNonLiteral,flan-t5-xxl
+MV,18,"Samantha is talking with her dad about her fiance. Samantha notes: ""John is an innocent person."" Her dad replies: ""Undoubtedly, as innocent as a saint."" Why has Samantha's dad responded like this?","[4, 2, 3, 1]","['IncorrectNonLiteral', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectLiteral']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",3,"['IncorrectLiteral', 'IncorrectAssociate', 'CorrectNonLiteral', 'IncorrectNonLiteral']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Samantha is talking with her dad about her fiance. Samantha notes: ""John is an innocent person."" Her dad replies: ""Undoubtedly, as innocent as a saint."" Why has Samantha's dad responded like this?
+Options:
+1) Samantha's dad thinks that John is too religious. 
+2) Samantha's dad is impressed with John's innocence.
+3) Samantha's dad thinks that Samantha has an incorrect view of her fiance.
+4) Samantha's dad thinks that Samantha's fiance is a saint.
+Answer: ",2,2,True,"{'1': 0.013597576666405679, '2': 0.7329991492461885, '3': 0.10179919823853412, '4': 0.15160407584887164}",0.10179919823853412,2,False,IncorrectAssociate,flan-t5-xxl
+MV,19,"Lenny is saying goodbye to his date Bianka. Lenny asks Bianka: ""Where do you live?"" Bianka responds: ""I live on the moon."" Why has Bianka responded like this?","[1, 3, 2, 4]","['IncorrectLiteral', 'IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectAssociate']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Lenny is saying goodbye to his date Bianka. Lenny asks Bianka: ""Where do you live?"" Bianka responds: ""I live on the moon."" Why has Bianka responded like this?
+Options:
+1) Bianka is an alien.
+2) Bianka is not very well educated.
+3) Bianka does not want Lenny to know her address.
+4) Bianka tries to make Lenny angry with her.
+Answer: ",2,3,True,"{'1': 0.1293153952849383, '2': 0.03459915177388846, '3': 0.53791169881727, '4': 0.29817375412390323}",0.53791169881727,3,True,CorrectNonLiteral,flan-t5-xxl
+MV,20,"Annie and Kelly are discussing their plans for summer. Annie asks Kelly: ""How many books do you plan to read this summer?"" Kelly responds: ""A million."" Why has Kelly responded like this?","[1, 2, 4, 3]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectAssociate']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociate', 'IncorrectNonLiteral']","['QualityMaxim', 'QualityMaxim', 'QualityMaxim', 'QualityMaxim']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide why the character in the story responds in a certain way. The answer options are 1, 2, 3, or 4.
+
+Scenario: Annie and Kelly are discussing their plans for summer. Annie asks Kelly: ""How many books do you plan to read this summer?"" Kelly responds: ""A million."" Why has Kelly responded like this?
+Options:
+1) Kelly has made a list of books to read that contains one million titles.
+2) Kelly plans to devote a lot of time to reading this summer.
+3) Kelly cannot count very well.
+4) Kelly is a pathological liar.
+Answer: ",2,2,True,"{'1': 0.0597809486142392, '2': 0.8711423706186102, '3': 0.016561164536796482, '4': 0.052515516230354116}",0.8711423706186102,2,True,CorrectNonLiteral,flan-t5-xxl

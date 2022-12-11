@@ -1,0 +1,80 @@
+ISV	1	1	He is unhappy that his shirt is wrinkled.
+ISV	2	1	He has some doubts whether Cindy should be painting.
+ISV	3	1	Cindy's brother creates a lot of mess.
+ISV	4	1	She wonders whether Matt knows something else interesting that he can share with her.
+ISV	5	1	His friends are very friendly.
+ISV	6	1	All of the boys were not very cautious.
+ISV	7	1	She is a great baker who makes good cookies.
+ISV	8	1	Matt is unfair to the teacher.
+ISV	9	1	He is too tired and the girls are making a lot of noise.
+ISV	10	1	Walking on shattered glass is something that Matt enjoys.
+ISV	11	1	He wants to know how good her vision is.
+ISV	12	1	She wants to know whether he is allowed to water the lawn.
+ISV	13	1	He wants to know whether his brother is strong enough to move the ladder.
+ISV	14	1	He wants to know their opinion.
+ISV	15	1	She suspects that someone is standing at their door.
+ISV	16	1	He wants to describe his physical state to Adam.
+ISV	17	1	He is upset that they will not be able to drink beer.
+ISV	18	1	She wants Alex to know when her parents will arrive.
+ISV	19	1	She wants to know Nate's plans.
+ISV	20	1	He wants Peter to know that he might get bitten.
+ISV	1	2	He wants his wife to iron his shirt.
+ISV	2	2	He does not want Cindy to start painting. 
+ISV	3	2	Cindy might help her clean up the house.
+ISV	4	2	She wishes that he stopped telling her about the movie.
+ISV	5	2	Cindy should stop teasing him if she wants to be his friend.
+ISV	6	2	It was not his fault.
+ISV	7	2	He wants Kate to give him some cookies.
+ISV	8	2	She wants him to stop talking.
+ISV	9	2	He wants the girls to be quiet.
+ISV	10	2	Matt should look around where he is walking. 
+ISV	11	2	He wants her to tell him the house number.
+ISV	12	2	She wants to know whether he has time and a desire to water the lawn. 
+ISV	13	2	He wants him to move the ladder.
+ISV	14	2	He wants to join their game.
+ISV	15	2	She wants Jane to open the door.
+ISV	16	2	He wants Adam to close the window.
+ISV	17	2	He wants Mark to get a bottle opener.
+ISV	18	2	She wants Alex to clean the mess.
+ISV	19	2	She wants Nate to take the garbage out.
+ISV	20	2	He wants Peter to close the screen door.
+ISV	1	3	He got this shirt on sale.
+ISV	2	3	He wants Cindy to paint a picture for the meeting.
+ISV	3	3	Cindy forgot to purchase a new toy for her brother.
+ISV	4	3	She wishes to have a date with Matt.
+ISV	5	3	Cindy should meet Matt's other friends.
+ISV	6	3	He likes to live in the wilderness.
+ISV	7	3	He wants to learn how to make these cookies.
+ISV	8	3	She wants kids to work on a project about fairness.
+ISV	9	3	He wants the girls to listen to some music.
+ISV	10	3	Matt should buy new shoes.
+ISV	11	3	He wants her to see an eye doctor.
+ISV	12	3	She wants to know whether he will water the plants in the office.
+ISV	13	3	He wants him to bring brushes from the truck.
+ISV	14	3	He wants to get a new uniform.
+ISV	15	3	She wants Jane to help her with cooking.
+ISV	16	3	He wants Adam to get back to the project.
+ISV	17	3	He wants Mark to bring some wine.
+ISV	18	3	She wants Alex to prepare some dinner.
+ISV	19	3	She wants Nate to spend more time with the family.
+ISV	20	3	He wants Peter to bring him some sunscreen.
+ISV	1	4	He got his shoes on sale.
+ISV	2	4	He wants Cindy to create a sculpture.
+ISV	3	4	Cindy forgot to invite her brother to the movies.
+ISV	4	4	She wishes to build a kite with Matt.
+ISV	5	4	Cindy should meet a new principal.  
+ISV	6	4	He likes to live in the city. 
+ISV	7	4	He wants to learn how to make a roast beef.
+ISV	8	4	She wants kids to work on a project about dinosaurs.
+ISV	9	4	He wants the girls to go shopping.
+ISV	10	4	Matt should get a new pet.
+ISV	11	4	He wants her to see a dentist.
+ISV	12	4	She wants to know whether he won the golf tournament.
+ISV	13	4	He wants him to bring tires from the truck.
+ISV	14	4	He wants to get good grades on his math test.
+ISV	15	4	She wants Jane to help her with painting the house.
+ISV	16	4	He wants Adam to invite Julie to the movies.
+ISV	17	4	He wants Mark to bring some pancakes.
+ISV	18	4	She wants Alex to apply for a job.
+ISV	19	4	She wants Nate to bring his friends over. 
+ISV	20	4	He wants Peter to bring him some flowers.

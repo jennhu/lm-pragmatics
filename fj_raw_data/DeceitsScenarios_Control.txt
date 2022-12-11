@@ -1,0 +1,40 @@
+DV	21	"Alex has to write an essay for his History class, but instead of studying he is playing a computer game. Suddenly he hears his dad coming and he opens a document with an unfinished essay. His dad comes in the room and asks, ""What were you doing?"" Alex responds: ""Playing."" Why has he responded in such a way?
+"
+DV	22	"It's Brandon's retirement party. Maggy gives him a gift. Brandon opens the box and finds a sweater that he doesn't like. He says: ""Thanks... but I don't like the color."" Why has Brandon responded in such a way?
+"
+DV	23	"Cody was playing basketball with some of his friends and accidentally broke one of the windows in his house . His mom comes out and asks Cody: ""What happened to the window?"" Cody thinks about blaming it on his friends, but says, ""I broke it. It was my fault, I'm sorry!"" Why has Cody responded in such a way?
+"
+DV	24	"Peter hates eating fish. While vising his friend's place, he is offered some salmon. Peter responds: ""I do not like fish."" Why has Peter responded in such a way?
+"
+DV	25	"Ashley asked for a bicycle for Christmas. On a Christmas morning, she opens her presents and finds a skateboard instead of a bike. When her mom asks her whether she likes the gift, Ashley says: ""Not really. I wanted a bicycle."" Why has Ashley responded in such a way?
+"
+DV	26	"Jessica prepared a special desert for her boyfriend Lenny. Lenny takes a big bite. He finds it inedible. When Jessica asks: ""Do you like it?"" Lenny says: ""Not really, it is revolting."" Why has Lenny responded in such a way?
+"
+DV	27	"Sally was excited about a gift that her husband prepared for her for their wedding anniversary. When he was away, she found the present and opened the wrapping. It was a diamond ring. Sally carefully rewrapped the ring and put it back. On the date of their anniversary when Sally was opening her present, her husband asked her, ""Sally, are you surprised?"" Sally answered, ""No, I knew that I would get a ring."" Why has Sally responded in such a way?
+"
+DV	28	"Julia did not want to go to work. She wanted to go shopping with her girlfriends. So she called in sick at work. Julia was having so much fun in the mall that she didn't notice her boss. The boss recognized Julia. Julia did not see him. The next day at work, the boss called Julia into his office. He asked Julia, ""Did you get a lot of rest yesterday?"" Julia replied, ""No, I spent the day at the mall."" Why has Julia responded in such a way?
+"
+DV	29	"It's Nick's birthday and his aunt gives him a gift. Nick hopes to get a new gaming console. When he opens the gift, he finds a book. Nick says to his aunt, ""This is not a gift that I wanted."" Why has Nick responded like this?
+"
+DV	30	"Mary has borrowed her friend's car and scratched its bumper. Her friend is angry with her. He said to Mary, ""I am so upset. You ruined my car."" Why has he responded like this?
+"
+DV	31	"Susan, John's wife, has purchased a new dress and is excited about it. Her husband is not a fan of it. Susan asks him if he likes her new dress. Her husband responds, ""It does not look flattering on you."" Why has he responded like this?
+"
+DV	32	"Anna and her best friend Trisha are talking with some acquaintances at the party.  Anna tells a joke, but nobody is laughing. Anna asks Trisha whether she thought her joke was funny. Trisha says, ""Your jokes are not funny."" Why has Trisha responded like this?
+"
+DV	33	"Jason must give his first presentation at work.  He tells his colleague Jim that he is worried that his voice will sound too soft. The next day he gives his presentation and listeners can hardly hear him. After presentation Jason asks Jim whether he spoke loudly enough. Jim answers, ""You were not loud enough."" Why has Jim responded like this?
+"
+DV	34	"Anthony decided to help his mom by washing dishes. At first his mom is delighted, but she realizes that Anthony accidentally broke a teacup that was very important to her. She feels quite upset about losing this item. Anthony asks if anything is wrong. His mom answers, ""I am very upset. You broke my favorite teacup."" Why has she responded like this?
+"
+DV	35	"Bob is giving a back massage to Alice. Usually Alice thinks that Bob's massages are very relaxing, but today she finds it painful. Bob asks whether Alice liked the massage. She responds: ""No, it wasn't good at all."" Why has Alice responded like this?
+"
+DV	36	"Kelly's boyfriend George invites her over to his house for dinner. His mom prepared her special spaghetti. Kelly finds that his family members are not nice to her. George's little brothers tend to pick on her when she visits their family. His mom ignores her. Kelly says to George: ""I am tired of your family. I will not come."" Why has Kelly responded like this?
+"
+DV	37	"Betty and her husband Mike are discussing their relationship. Mike tells Betty that divorce was never an option for him. He asks if Betty had ever considered ending the relationship. Although she is currently very happy in the relationship, in the past she did think about a divorce several times. She says, ""I have considered breaking up with you multiple times."" Why has she responded like this?
+"
+DV	38	"Samantha's partner Alex needs to have a minor surgery done and he is very nervous about it. He asks Samantha, who had it done before, what her experience was like, hoping her response will calm his nerves. Samantha recalls that it hurt a lot. She says: ""It was very painful."" Why has she responded like this?
+"
+DV	39	"Annie went on a date with Mike. The date did not go well. Mike was rude and disrespectful. After a date, her friend Lisa, who happens to be Mike's sister, asks Annie what she thought of her date with Mike. Annie says, ""I had the worst date of my life."" Why has Annie responded like this?
+"
+DV	40	"Mary got a new haircut. Her friend's mom Mrs. Smith did it. Lisa is disappointed with the haircut. Her friend asks her what she thinks about the haircut that her mom gave her. Mary responds: ""She is an awful hairdresser.""  Why has Mary responded like this?
+"

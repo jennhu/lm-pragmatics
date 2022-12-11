@@ -1,0 +1,181 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+ISV,1,"Paul has to go to an interview and he's running late. While he's cleaning his shoes he says to his wife, Jane, ""I want to wear that blue shirt, but it's very creased"". What might he be trying to convey?","[2, 3, 1, 4]","['CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectLiteral', 'IncorrectAssociative']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Paul has to go to an interview and he's running late. While he's cleaning his shoes he says to his wife, Jane, ""I want to wear that blue shirt, but it's very creased"". What might he be trying to convey?
+Options:
+1) He wants his wife to iron his shirt.
+2) He got this shirt on sale.
+3) He is unhappy that his shirt is wrinkled.
+4) He got his shoes on sale.
+Answer: ",3,1,True,"{'1': 0.5442296812939255, '2': 0.004670103391684397, '3': 0.4504996986094376, '4': 0.0006005167049526277}",0.5442296812939255,1,True,CorrectNonLiteral,flan-t5-xl
+ISV,2,"Cindy wanted to paint a picture. She got her paints, paper and brushes ready. She has a meeting to go to in 10 minutes. Her dad said to her, ""I am not sure that now is the best time for painting."" What might he be trying to convey?","[2, 3, 4, 1]","['CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative', 'IncorrectLiteral']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Cindy wanted to paint a picture. She got her paints, paper and brushes ready. She has a meeting to go to in 10 minutes. Her dad said to her, ""I am not sure that now is the best time for painting."" What might he be trying to convey?
+Options:
+1) He does not want Cindy to start painting. 
+2) He wants Cindy to paint a picture for the meeting.
+3) He wants Cindy to create a sculpture.
+4) He has some doubts whether Cindy should be painting.
+Answer: ",3,4,True,"{'1': 0.45111612421758274, '2': 0.008925958397252562, '3': 0.02628553905544692, '4': 0.5136723783297177}",0.45111612421758274,4,False,IncorrectLiteral,flan-t5-xl
+ISV,3,"Cindy asked her mom to take her to the movies. Her mom responds, ""Your little brother's toys are all over the house. I don't have time to clean up."" What might she be trying to convey?","[4, 1, 2, 3]","['IncorrectAssociative', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Cindy asked her mom to take her to the movies. Her mom responds, ""Your little brother's toys are all over the house. I don't have time to clean up."" What might she be trying to convey?
+Options:
+1) Cindy forgot to invite her brother to the movies.
+2) Cindy's brother creates a lot of mess.
+3) Cindy might help her clean up the house.
+4) Cindy forgot to purchase a new toy for her brother.
+Answer: ",3,2,True,"{'1': 0.01354177326655556, '2': 0.9756319579351835, '3': 0.009919904748143311, '4': 0.0009063640501177485}",0.009919904748143311,2,False,IncorrectLiteral,flan-t5-xl
+ISV,4,"Matt was telling Cindy about a scary movie that he saw. Cindy was listening to him for a while and then responded, ""Can we talk about something else?"" What might she be trying to convey?","[3, 4, 1, 2]","['IncorrectLexicalOverlap', 'IncorrectAssociative', 'IncorrectLiteral', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Matt was telling Cindy about a scary movie that he saw. Cindy was listening to him for a while and then responded, ""Can we talk about something else?"" What might she be trying to convey?
+Options:
+1) She wishes to have a date with Matt.
+2) She wishes to build a kite with Matt.
+3) She wonders whether Matt knows something else interesting that he can share with her.
+4) She wishes that he stopped telling her about the movie.
+Answer: ",3,3,True,"{'1': 0.013523940682239447, '2': 0.005396163965854155, '3': 0.5437154821521617, '4': 0.43736441319974484}",0.43736441319974484,3,False,IncorrectLiteral,flan-t5-xl
+ISV,5,"Cindy and Matt had been good friends for a long time. Recently Cindy started teasing Matt a lot every day. He got mad and said, ""My friends do not say hurtful things to me."" What might he be trying to convey?","[1, 3, 2, 4]","['IncorrectLiteral', 'IncorrectLexicalOverlap', 'CorrectNonLiteral', 'IncorrectAssociative']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Cindy and Matt had been good friends for a long time. Recently Cindy started teasing Matt a lot every day. He got mad and said, ""My friends do not say hurtful things to me."" What might he be trying to convey?
+Options:
+1) His friends are very friendly.
+2) Cindy should meet Matt's other friends.
+3) Cindy should stop teasing him if she wants to be his friend.
+4) Cindy should meet a new principal.  
+Answer: ",3,3,True,"{'1': 0.3155956119998053, '2': 0.06144131202933582, '3': 0.6140059664012673, '4': 0.008957109569591571}",0.6140059664012673,3,True,CorrectNonLiteral,flan-t5-xl
+ISV,6,"The boys were playing around. Dan accidentally tripped Scott. Scott got very angry about falling. Dan said: ""Everybody's being wild."" What might he be trying to convey?","[3, 1, 4, 2]","['IncorrectLexicalOverlap', 'IncorrectLiteral', 'IncorrectAssociative', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: The boys were playing around. Dan accidentally tripped Scott. Scott got very angry about falling. Dan said: ""Everybody's being wild."" What might he be trying to convey?
+Options:
+1) He likes to live in the wilderness.
+2) All of the boys were not very cautious.
+3) He likes to live in the city. 
+4) It was not his fault.
+Answer: ",3,2,True,"{'1': 0.04169653154665214, '2': 0.6146574214130649, '3': 0.026531208655412638, '4': 0.3171148383848704}",0.3171148383848704,2,False,IncorrectLiteral,flan-t5-xl
+ISV,7,"Kate brought some cookies to school. Matt has a sweet tooth. He says, ""Your cookies smell delicious. They must be really tasty."" What might he be trying to convey?","[3, 4, 1, 2]","['IncorrectLexicalOverlap', 'IncorrectAssociative', 'IncorrectLiteral', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Kate brought some cookies to school. Matt has a sweet tooth. He says, ""Your cookies smell delicious. They must be really tasty."" What might he be trying to convey?
+Options:
+1) He wants to learn how to make these cookies.
+2) He wants to learn how to make a roast beef.
+3) She is a great baker who makes good cookies.
+4) He wants Kate to give him some cookies.
+Answer: ",3,4,True,"{'1': 0.048306081610582405, '2': 0.008078985034478424, '3': 0.42436246555880847, '4': 0.5192524677961308}",0.5192524677961308,4,True,CorrectNonLiteral,flan-t5-xl
+ISV,8,"The teacher said that she was feeling sick today and asked the kids to work in groups quietly. Matt kept talking loudly with his friends. The teacher said, ""Matt, I think you are being unfair to me now."" What might she be trying to convey?","[2, 1, 3, 4]","['CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: The teacher said that she was feeling sick today and asked the kids to work in groups quietly. Matt kept talking loudly with his friends. The teacher said, ""Matt, I think you are being unfair to me now."" What might she be trying to convey?
+Options:
+1) She wants him to stop talking.
+2) Matt is unfair to the teacher.
+3) She wants kids to work on a project about fairness.
+4) She wants kids to work on a project about dinosaurs.
+Answer: ",3,1,True,"{'1': 0.8961621749806569, '2': 0.09936809833892707, '3': 0.003954901110622294, '4': 0.0005148255697937289}",0.8961621749806569,1,True,CorrectNonLiteral,flan-t5-xl
+ISV,9,"Cindy was having a slumber party with two of her friends. It was very late, but they kept talking and laughing. Her dad came in and said, ""I would like to go to bed but it is too loud in here."" What might he be trying to convey?","[1, 3, 2, 4]","['IncorrectLiteral', 'IncorrectLexicalOverlap', 'CorrectNonLiteral', 'IncorrectAssociative']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Cindy was having a slumber party with two of her friends. It was very late, but they kept talking and laughing. Her dad came in and said, ""I would like to go to bed but it is too loud in here."" What might he be trying to convey?
+Options:
+1) He is too tired and the girls are making a lot of noise.
+2) He wants the girls to listen to some music.
+3) He wants the girls to be quiet.
+4) He wants the girls to go shopping.
+Answer: ",3,3,True,"{'1': 0.30680286268847534, '2': 0.0044404812572786945, '3': 0.6881965477303451, '4': 0.0005601083239009416}",0.6881965477303451,3,True,CorrectNonLiteral,flan-t5-xl
+ISV,10,"Chad and Matt were walking. The sidewalk was being fixed and there was lots of shattered glass on the sidewalk. Matt was not paying attention to the sidewalk. Chad said, ""I guess you like walking on shattered glass."" What might he be trying to convey?","[3, 1, 2, 4]","['IncorrectLexicalOverlap', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociative']",3,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Chad and Matt were walking. The sidewalk was being fixed and there was lots of shattered glass on the sidewalk. Matt was not paying attention to the sidewalk. Chad said, ""I guess you like walking on shattered glass."" What might he be trying to convey?
+Options:
+1) Matt should buy new shoes.
+2) Walking on shattered glass is something that Matt enjoys.
+3) Matt should look around where he is walking. 
+4) Matt should get a new pet.
+Answer: ",3,3,True,"{'1': 0.0027833571164369523, '2': 0.002799131719704993, '3': 0.993859597167554, '4': 0.0005579139963039819}",0.993859597167554,3,True,CorrectNonLiteral,flan-t5-xl
+ISV,11,"Richard is driving his wife home from church. On the way home they want to stop at a new gourmet grocery store at 2401 Main Street. It is in a part of town that they are not familiar with. Richard points at a building and asks his wife: ""Can you see that house number?"" What might he be trying to convey?","[4, 2, 1, 3]","['IncorrectAssociative', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectLexicalOverlap']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Richard is driving his wife home from church. On the way home they want to stop at a new gourmet grocery store at 2401 Main Street. It is in a part of town that they are not familiar with. Richard points at a building and asks his wife: ""Can you see that house number?"" What might he be trying to convey?
+Options:
+1) He wants her to see a dentist.
+2) He wants her to tell him the house number.
+3) He wants to know how good her vision is.
+4) He wants her to see an eye doctor.
+Answer: ",3,3,True,"{'1': 0.016650420217555917, '2': 0.25131631484471795, '3': 0.7277482349793409, '4': 0.0042850299583852185}",0.25131631484471795,3,False,IncorrectLiteral,flan-t5-xl
+ISV,12,"It has been a hot day. Juan's wife is leaving the house and says to him, ""Can you water the lawn?'' What might he be trying to convey?","[1, 2, 4, 3]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectAssociative', 'IncorrectLexicalOverlap']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: It has been a hot day. Juan's wife is leaving the house and says to him, ""Can you water the lawn?'' What might he be trying to convey?
+Options:
+1) She wants to know whether he is allowed to water the lawn.
+2) She wants to know whether he has time and a desire to water the lawn. 
+3) She wants to know whether he won the golf tournament.
+4) She wants to know whether he will water the plants in the office.
+Answer: ",3,2,True,"{'1': 0.03213871914117388, '2': 0.9644502742501032, '3': 0.002559805094619993, '4': 0.0008512015141030832}",0.9644502742501032,2,True,CorrectNonLiteral,flan-t5-xl
+ISV,13,"A house painter is carrying a heavy tray of paints. A small ladder is blocking the sidewalk and the painter cannot get around it. He calls out to his brother: ""Can you move the ladder?""  What might he be trying to convey?","[1, 4, 3, 2]","['IncorrectLiteral', 'IncorrectAssociative', 'IncorrectLexicalOverlap', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: A house painter is carrying a heavy tray of paints. A small ladder is blocking the sidewalk and the painter cannot get around it. He calls out to his brother: ""Can you move the ladder?""  What might he be trying to convey?
+Options:
+1) He wants to know whether his brother is strong enough to move the ladder.
+2) He wants him to bring tires from the truck.
+3) He wants him to bring brushes from the truck.
+4) He wants him to move the ladder.
+Answer: ",3,4,True,"{'1': 0.015248036209619913, '2': 0.000986045074095943, '3': 0.007814923501926908, '4': 0.9759509952143572}",0.9759509952143572,4,True,CorrectNonLiteral,flan-t5-xl
+ISV,14,"Brad is interested in basketball and wants to join his school's basketball team. One day he comes to the basketball court and asks the players there: ""Do you think I can play basketball with you?"" What might he be trying to convey?","[3, 2, 4, 1]","['IncorrectLexicalOverlap', 'CorrectNonLiteral', 'IncorrectAssociative', 'IncorrectLiteral']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Brad is interested in basketball and wants to join his school's basketball team. One day he comes to the basketball court and asks the players there: ""Do you think I can play basketball with you?"" What might he be trying to convey?
+Options:
+1) He wants to get a new uniform.
+2) He wants to join their game.
+3) He wants to get good grades on his math test.
+4) He wants to know their opinion.
+Answer: ",3,4,True,"{'1': 0.004688426271735998, '2': 0.032363132496690344, '3': 0.007441103406278119, '4': 0.9555073378252956}",0.032363132496690344,4,False,IncorrectLiteral,flan-t5-xl
+ISV,15,"Jane is watching TV while her mom is cooking dinner in the kitchen. The doorbell rings. Jane's mother says: ""Someone is at the door"". What might she be trying to convey?","[4, 1, 3, 2]","['IncorrectAssociative', 'IncorrectLiteral', 'IncorrectLexicalOverlap', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Jane is watching TV while her mom is cooking dinner in the kitchen. The doorbell rings. Jane's mother says: ""Someone is at the door"". What might she be trying to convey?
+Options:
+1) She wants Jane to help her with painting the house.
+2) She suspects that someone is standing at their door.
+3) She wants Jane to help her with cooking.
+4) She wants Jane to open the door.
+Answer: ",3,4,True,"{'1': 0.00899195304301223, '2': 0.031373441231337736, '3': 0.020851054818032885, '4': 0.9387835509076171}",0.9387835509076171,4,True,CorrectNonLiteral,flan-t5-xl
+ISV,16,"Adam and Bill are working together on a project. Adam decides to take a break, and opens a window. A cold breeze blows in. Bill says, ""I am getting cold."" What might he be trying to convey?","[2, 3, 4, 1]","['CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative', 'IncorrectLiteral']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Adam and Bill are working together on a project. Adam decides to take a break, and opens a window. A cold breeze blows in. Bill says, ""I am getting cold."" What might he be trying to convey?
+Options:
+1) He wants Adam to close the window.
+2) He wants Adam to get back to the project.
+3) He wants Adam to invite Julie to the movies.
+4) He wants to describe his physical state to Adam.
+Answer: ",3,1,True,"{'1': 0.9713082592254552, '2': 0.0038486972060717893, '3': 0.0032223148119041875, '4': 0.021620728756568876}",0.9713082592254552,1,True,CorrectNonLiteral,flan-t5-xl
+ISV,17,"Mark invited Josh to his house to watch a football game. Josh brings a six-pack of beer with him. Josh picks up one bottle, examines it and then says to Mark: ""Hmm, this isn't a twist off."" What might he be trying to convey?","[3, 2, 1, 4]","['IncorrectLexicalOverlap', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectAssociative']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Mark invited Josh to his house to watch a football game. Josh brings a six-pack of beer with him. Josh picks up one bottle, examines it and then says to Mark: ""Hmm, this isn't a twist off."" What might he be trying to convey?
+Options:
+1) He wants Mark to bring some wine.
+2) He wants Mark to get a bottle opener.
+3) He is upset that they will not be able to drink beer.
+4) He wants Mark to bring some pancakes.
+Answer: ",3,2,True,"{'1': 0.012249777457220333, '2': 0.671363704221661, '3': 0.3156417095990129, '4': 0.0007448087221057131}",0.671363704221661,2,True,CorrectNonLiteral,flan-t5-xl
+ISV,18,"Natalie returns home to find that her partner, Alex, created a big mess on the table. Natalie says: ""Alex, my parents are going to be here any minute"" What might she be trying to convey?","[3, 2, 4, 1]","['IncorrectLexicalOverlap', 'CorrectNonLiteral', 'IncorrectAssociative', 'IncorrectLiteral']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Natalie returns home to find that her partner, Alex, created a big mess on the table. Natalie says: ""Alex, my parents are going to be here any minute"" What might she be trying to convey?
+Options:
+1) She wants Alex to prepare some dinner.
+2) She wants Alex to clean the mess.
+3) She wants Alex to apply for a job.
+4) She wants Alex to know when her parents will arrive.
+Answer: ",3,2,True,"{'1': 0.013166812476431667, '2': 0.9795170106099126, '3': 0.0034892256623650143, '4': 0.003826951251290816}",0.9795170106099126,2,True,CorrectNonLiteral,flan-t5-xl
+ISV,19,"Nate is about to leave the house. His wife points at a full bag of garbage and asks: ""Are you going out?"" What might she be trying to convey?","[3, 1, 4, 2]","['IncorrectLexicalOverlap', 'IncorrectLiteral', 'IncorrectAssociative', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Nate is about to leave the house. His wife points at a full bag of garbage and asks: ""Are you going out?"" What might she be trying to convey?
+Options:
+1) She wants Nate to spend more time with the family.
+2) She wants to know Nate's plans.
+3) She wants Nate to bring his friends over. 
+4) She wants Nate to take the garbage out.
+Answer: ",3,2,True,"{'1': 0.028724843408502176, '2': 0.7076752414026963, '3': 0.028917561062282934, '4': 0.23468235412651853}",0.23468235412651853,2,False,IncorrectLiteral,flan-t5-xl
+ISV,20,"Sam is sunning himself on the porch. Peter comes out of the house and forgets to close the screen door. Sam says, ""Peter, there are many flies and mosquitoes outside."" What might he be trying to convey?","[1, 3, 4, 2]","['IncorrectLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative', 'CorrectNonLiteral']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectLexicalOverlap', 'IncorrectAssociative']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer. Your task is to decide what the character in the story is trying to convey. The answer options are 1, 2, 3, or 4.
+
+Scenario: Sam is sunning himself on the porch. Peter comes out of the house and forgets to close the screen door. Sam says, ""Peter, there are many flies and mosquitoes outside."" What might he be trying to convey?
+Options:
+1) He wants Peter to know that he might get bitten.
+2) He wants Peter to bring him some sunscreen.
+3) He wants Peter to bring him some flowers.
+4) He wants Peter to close the screen door.
+Answer: ",3,4,True,"{'1': 0.40630875944723766, '2': 0.006511108960699402, '3': 0.014420489185749069, '4': 0.5727596424063138}",0.5727596424063138,4,True,CorrectNonLiteral,flan-t5-xl

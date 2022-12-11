@@ -1,0 +1,201 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+MPV,1,"Mary was asked about the town that she has just moved to. Mary responded: ""This town is a chimney."" What does Mary mean?","[3, 5, 1, 4, 2]","['IncorrectNonLiteral', 'IncorrectLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonSequitur', 'CorrectNonLiteral']",5,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Mary was asked about the town that she has just moved to. Mary responded: ""This town is a chimney."" What does Mary mean?
+Options:
+1) The people living in this town are very welcoming.
+2) The town is a chimney.
+3) All houses in this town have chimneys.
+4) Mary found a job at a company installing chimneys.
+5) The town is not one of the cleanest ones.
+Answer: ",0,2,True,"{'1': 4.9715564569277254e-05, '2': 0.9999223371810827, '3': 2.5161581778190376e-05, '4': 7.165659522705335e-07, '5': 2.069106617532642e-06}",2.069106617532642e-06,2,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,2,"Mike said to his expectant wife: ""Our baby is a lovebird's egg."" What did Mike mean?","[3, 4, 2, 1, 5]","['IncorrectNonLiteral', 'IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectLiteral']",3,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Mike said to his expectant wife: ""Our baby is a lovebird's egg."" What did Mike mean?
+Options:
+1) Mike is worried that the bird flu virus affected their baby.
+2) Their baby is growing bigger every day.
+3) Mike and his wife are very much in love with each other.
+4) The baby in his wife's womb is the size of an egg.
+5) Their baby is an egg.
+Answer: ",0,4,True,"{'1': 4.3243053339606074e-05, '2': 8.72877035290526e-06, '3': 0.00035608593744845796, '4': 0.9992808641165385, '5': 0.000311078122320732}",0.00035608593744845796,4,False,IncorrectPlausibleLiteral,tk-instruct-11b-def-pos
+MPV,3,"Andrew and Bob were discussing the investment company where Andrew works. Bob said: ""The investors are squirrels collecting nuts."" What does Bob mean?","[4, 3, 2, 5, 1]","['IncorrectNonSequitur', 'IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectPlausibleLiteral']",3,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Andrew and Bob were discussing the investment company where Andrew works. Bob said: ""The investors are squirrels collecting nuts."" What does Bob mean?
+Options:
+1) Bob is allergic to nuts.
+2) The investors dress and eat well.
+3) They buy stocks hoping for future profit.  
+4) Squirrels were hired to work in the company. 
+5) The investors enjoy picking nuts as much as squirrels do.
+Answer: ",0,3,True,"{'1': 0.0010189047214660784, '2': 0.0078022850673271915, '3': 0.9637504915195504, '4': 0.002110504995051926, '5': 0.0253178136966043}",0.9637504915195504,3,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,4,"Mark asked his mom what she thought about his new girlfriend. She replied: ""This young lady is 100% polyester."" What does she mean?","[2, 5, 4, 1, 3]","['CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonSequitur', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral']",1,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Mark asked his mom what she thought about his new girlfriend. She replied: ""This young lady is 100% polyester."" What does she mean?
+Options:
+1) His girlfriend's behavior was not very natural.
+2) His girlfriend is made of polyester.
+3) His girlfriend has a beautiful smile. 
+4) His girlfriend wore clothes made of polyester.
+5) The girl made a good impression on Mark's mom
+Answer: ",0,1,True,"{'1': 0.9264780397383586, '2': 0.07347544407236635, '3': 2.693767970189304e-05, '4': 6.505206172171086e-06, '5': 1.3073303400962465e-05}",0.9264780397383586,1,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,5,"Mary said to her husband: ""Our kids are pieces of taffy."" What did she mean? ","[1, 4, 5, 2, 3]","['IncorrectPlausibleLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral']",4,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Mary said to her husband: ""Our kids are pieces of taffy."" What did she mean? 
+Options:
+1) Their kids eat too many candies.
+2) Their kids argue too much.
+3) Their kids are sweet candy.
+4) Their kids always stick together.
+5) Their kids need to stick to a diet.
+Answer: ",0,3,True,"{'1': 9.500498087127659e-07, '2': 1.5557488735714488e-07, '3': 0.9998829522448309, '4': 5.413365186949998e-07, '5': 0.00011540079395442808}",5.413365186949998e-07,3,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,6,"Mark saw a lady at the party and said to his friend: ""This lady's jewels are bursting stars."" What did Mark mean?","[4, 2, 5, 3, 1]","['IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteral', 'IncorrectPlausibleLiteral']",2,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Mark saw a lady at the party and said to his friend: ""This lady's jewels are bursting stars."" What did Mark mean?
+Options:
+1) Mark did not like the lady's jewelry.
+2) The lady's jewelry is shining very brightly.
+3) The lady wears bursting stars.
+4) The lady's jewelry broke into many pieces.
+5) The lady wears some jewelry designed to look like stars.
+Answer: ",0,3,True,"{'1': 8.607037871740177e-05, '2': 0.00560866549061005, '3': 0.98352106789198, '4': 3.6616941163242375e-05, '5': 0.01074757929752928}",0.00560866549061005,3,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,7,"Ben was telling his friend about the fashion show that he attended. He said: ""This model was the blue canary at the show."" What did Ben mean? ","[5, 2, 3, 4, 1]","['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectPlausibleLiteral']",2,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Ben was telling his friend about the fashion show that he attended. He said: ""This model was the blue canary at the show."" What did Ben mean? 
+Options:
+1) The blue canary worked as a model at the show.
+2) The model stood out at the fashion show.
+3) The model's skin turned blue.
+4) The model came to the show with her pet bird.
+5) The model wore a costume made of blue feathers.
+Answer: ",0,2,True,"{'1': 8.476272188455274e-05, '2': 0.9998640958269168, '3': 9.318792367921118e-06, '4': 2.477275993162874e-07, '5': 4.157493123154868e-05}",0.9998640958269168,2,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,8,"Mary said to her granddaughter: ""The queen is our nation's aunt."" What did Mary mean?","[4, 1, 5, 3, 2]","['IncorrectNonSequitur', 'IncorrectPlausibleLiteral', 'IncorrectLiteral', 'IncorrectNonLiteral', 'CorrectNonLiteral']",5,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Mary said to her granddaughter: ""The queen is our nation's aunt."" What did Mary mean?
+Options:
+1) The queen has a lot of relatives. 
+2) Mary and her family are related to the queen.
+3) The queen is an aunt of everyone living in the country.
+4) People of the country love the pies that the queen bakes.
+5) The queen cares about you from afar.
+Answer: ",0,3,True,"{'1': 1.0277522512440859e-07, '2': 2.543797290040054e-08, '3': 0.9999996166651519, '4': 3.6104206226103616e-08, '5': 2.1901744384494665e-07}",2.1901744384494665e-07,3,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,9,"Abby and Kyle were walking along the promenade one night, and they saw a couple smiling at each other. Abby noted: ""This sunset sings to the lovers."" What did Abby mean?","[5, 4, 2, 3, 1]","['IncorrectLiteral', 'IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectPlausibleLiteral']",3,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Abby and Kyle were walking along the promenade one night, and they saw a couple smiling at each other. Abby noted: ""This sunset sings to the lovers."" What did Abby mean?
+Options:
+1) He could hear the sun singing songs.
+2) Abby wants to attend a concert with Kyle.
+3) It was a very romantic night.
+4) It was too dark to see any singers performing on the promenade.
+5) There were a lot of musicians and singers performing on the promenade.
+Answer: ",0,3,True,"{'1': 0.029414050806955177, '2': 0.0009774247883363037, '3': 0.9695775971394881, '4': 1.4879505890697915e-05, '5': 1.6047759329705034e-05}",0.9695775971394881,3,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,10,"Jessica was giving a talk that her mom attended. After the talk, Jessica's mom called her husband and said: ""Jessica sailed towards the finish."" What did she mean?","[4, 3, 1, 2, 5]","['IncorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectNonSequitur']",4,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Jessica was giving a talk that her mom attended. After the talk, Jessica's mom called her husband and said: ""Jessica sailed towards the finish."" What did she mean?
+Options:
+1) Jessica's talk was a disaster. 
+2) Jessica got interested in sailing.
+3) Jessica finished the sailing race.
+4) Jessica finished her talk successfully.
+5) Jessica was giving a talk about sailing.  
+Answer: ",0,4,True,"{'1': 2.532305023014504e-08, '2': 9.32835176446453e-08, '3': 2.2362257818275704e-05, '4': 0.9999767779419714, '5': 7.411936424403788e-07}",0.9999767779419714,4,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,11,"Jody and Mark were discussing their daughter's behavior. Mark said: ""She is walking all over her brothers."" What did Mark mean?","[3, 2, 4, 5, 1]","['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Jody and Mark were discussing their daughter's behavior. Mark said: ""She is walking all over her brothers."" What did Mark mean?
+Options:
+1) Their daughter finally started to walk.
+2) She can make her brothers do whatever she wishes.
+3) Their daughter should be less aggressive towards her brothers.
+4) She enjoys long walks with her brothers.
+5) She is not paying attention when walking and often steps on her little brothers by accident.
+Answer: ",0,5,True,"{'1': 5.820142291643795e-07, '2': 3.7327303456690096e-06, '3': 7.793367322364264e-07, '4': 9.961268469608761e-08, '5': 0.9999948063060081}",3.7327303456690096e-06,5,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,12,"During a business meeting, the general manager of the company said to the financial manager: ""The new accountant that you hired is a juggler."" What did the general manager mean? ","[4, 5, 3, 1, 2]","['IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectPlausibleLiteral', 'IncorrectLiteral', 'CorrectNonLiteral']",5,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: During a business meeting, the general manager of the company said to the financial manager: ""The new accountant that you hired is a juggler."" What did the general manager mean? 
+Options:
+1) The newly hired person dressed up as a clown.
+2) The newly hired person has too many excuses for being late.
+3) The newly hired person used to work in a circus show.
+4) The newly hired person can toss and catch objects in the air.
+5) The newly hired person is good at manipulating many things at once.
+Answer: ",0,5,True,"{'1': 1.6321137700569878e-08, '2': 1.3590860599154715e-08, '3': 2.730307625682511e-07, '4': 6.411633241495118e-05, '5': 0.9999355807248241}",0.9999355807248241,5,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,13,"Ken was telling his friend about his shopping experience on Black Friday. Ken said: ""The store that I went to was a jungle."" What did Ken mean?","[1, 4, 3, 5, 2]","['IncorrectPlausibleLiteral', 'IncorrectNonSequitur', 'IncorrectNonLiteral', 'IncorrectLiteral', 'CorrectNonLiteral']",5,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Ken was telling his friend about his shopping experience on Black Friday. Ken said: ""The store that I went to was a jungle."" What did Ken mean?
+Options:
+1) There were a lot of tropical trees in that store.
+2) There were a lot of mosquitoes in that store.
+3) The store that he went to sold some exotic pets.
+4) The store was in a jungle.
+5) The store was complete chaos.
+Answer: ",0,5,True,"{'1': 0.2415302913171283, '2': 0.0052757728997647425, '3': 0.003633978950509417, '4': 0.00816249143492914, '5': 0.7413974653976684}",0.7413974653976684,5,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,14,"Janet was telling her friend about the show that she saw last night. Janet said: ""The dancers were butterflies."" What did Janet mean?","[4, 5, 1, 2, 3]","['IncorrectNonSequitur', 'IncorrectLiteral', 'IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral']",4,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Janet was telling her friend about the show that she saw last night. Janet said: ""The dancers were butterflies."" What did Janet mean?
+Options:
+1) She did not see any dancers in the show.
+2) Butterflies were dancing on the stage.
+3) The dancers portrayed butterflies in the show.
+4) The dancers flitted around the stage.
+5) There were too many dancers in this show.
+Answer: ",0,3,True,"{'1': 5.8129319198147075e-08, '2': 1.7417878632538967e-07, '3': 0.9990536762963095, '4': 0.0009460802362571661, '5': 1.115932789006296e-08}",0.0009460802362571661,3,False,IncorrectPlausibleLiteral,tk-instruct-11b-def-pos
+MPV,15,"Caitlyn was telling her husband about her new co-worker. Caitlyn said: ""Sally is a block of ice."" What did she mean?","[3, 4, 2, 5, 1]","['IncorrectNonLiteral', 'IncorrectNonSequitur', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectPlausibleLiteral']",3,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Caitlyn was telling her husband about her new co-worker. Caitlyn said: ""Sally is a block of ice."" What did she mean?
+Options:
+1) Sally is very emotional and cries often.
+2) Sally's hands are always cold. 
+3) Sally does not show any emotions.
+4) Sally is an ice sculpture.
+5) Sally is coming down with a cold.
+Answer: ",0,3,True,"{'1': 4.6525905127708435e-07, '2': 3.101528770732088e-07, '3': 0.9999979161175715, '4': 1.2211015887083987e-06, '5': 8.73689115243458e-08}",0.9999979161175715,3,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,16,"Robert and his wife are discussing their neighbor. Robert said: ""Our neighbor is a sheep."" What did Robert mean?  ","[4, 2, 5, 1, 3]","['IncorrectNonLiteral', 'CorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral', 'IncorrectPlausibleLiteral']",2,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Robert and his wife are discussing their neighbor. Robert said: ""Our neighbor is a sheep."" What did Robert mean?  
+Options:
+1) Their neighbor always wears wool sweaters.
+2) Their neigbor is a follower.
+3) Their neigbor is charismatic.
+4) There is a sheep living next to them.
+5) Their neighbor has a unique haircut.
+Answer: ",0,2,True,"{'1': 0.0009498763720405005, '2': 0.9988488325563615, '3': 0.00019556470962678058, '4': 4.416892770126296e-06, '5': 1.309469201276022e-06}",0.9988488325563615,2,True,CorrectNonLiteral,tk-instruct-11b-def-pos
+MPV,17,"Lucy told her teacher: ""The book that you gave me has more holes in it than Swiss cheese."" What did Lucy mean?","[2, 5, 4, 3, 1]","['CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonSequitur', 'IncorrectNonLiteral', 'IncorrectPlausibleLiteral']",1,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Lucy told her teacher: ""The book that you gave me has more holes in it than Swiss cheese."" What did Lucy mean?
+Options:
+1) The plot of the book lacks important components.
+2) Many pages of the book are missing some parts.
+3) The book smells funny.
+4) The book is about cheese making in Switzerland. 
+5) The book is in bad shape. 
+Answer: ",0,2,True,"{'1': 0.007741638184112671, '2': 0.992158521013509, '3': 4.4108124147055414e-05, '4': 5.9193173807712135e-06, '5': 4.981336085044634e-05}",0.007741638184112671,2,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,18,"The teacher told Sam: ""You have too much on your plate."" What did the teacher mean?","[2, 3, 4, 5, 1]","['CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",1,"['IncorrectLiteral', 'CorrectNonLiteral', 'IncorrectPlausibleLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: The teacher told Sam: ""You have too much on your plate."" What did the teacher mean?
+Options:
+1) Sam has too many things to take care of.
+2) Sam should think about his dietary habits.
+3) Sam should share food with his classmates. 
+4) Sam should finish all the food that is on his plate.
+5) Sam has too much food on his plate.
+Answer: ",0,5,True,"{'1': 0.09547069963246625, '2': 0.00028144348935982847, '3': 7.716899913255768e-05, '4': 6.835034212717938e-05, '5': 0.9041023375369142}",0.09547069963246625,5,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,19,"Melissa was discussing a new sales manager, who was hired a couple of days ago: ""She is a babe in the woods."" What did Melissa mean?","[4, 1, 2, 3, 5]","['IncorrectNonSequitur', 'IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectLiteral']",3,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: Melissa was discussing a new sales manager, who was hired a couple of days ago: ""She is a babe in the woods."" What did Melissa mean?
+Options:
+1) The new sales manager used to work as a babysitter. 
+2) The new sales manager is too young.
+3) The new sales manager is very inexperienced. 
+4) The new sales manager lives off of the grid.
+5) The new sales manager is a baby, who lives in the woods.
+Answer: ",0,5,True,"{'1': 1.9116285438777416e-05, '2': 2.294623762909777e-05, '3': 0.00016914598695118353, '4': 0.0004110853287202214, '5': 0.9993777061612608}",0.00016914598695118353,5,False,IncorrectLiteral,tk-instruct-11b-def-pos
+MPV,20,"John told his fiance: ""You are the tomato sauce to my pasta."" What did John mean?","[1, 2, 5, 3, 4]","['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur']",2,"['IncorrectPlausibleLiteral', 'CorrectNonLiteral', 'IncorrectNonLiteral', 'IncorrectNonSequitur', 'IncorrectLiteral']",False,"Task: You will read short stories that describe everyday situations. Each story will be followed by a multiple-choice question. Read each story and choose the best answer to each question. The answer options are 1, 2, 3, 4, or 5.
+
+Scenario: John told his fiance: ""You are the tomato sauce to my pasta."" What did John mean?
+Options:
+1) They enjoy Italian cuisine.
+2) They are meant to be together.
+3) The tomato sauce that she makes goes well with his pasta.
+4) He would love some pasta for dinner.
+5) His fiance has bright red lips.
+Answer: ",0,2,True,"{'1': 2.252215116339547e-06, '2': 0.9999971149328435, '3': 6.259545808628106e-07, '4': 4.166746987853376e-09, '5': 2.7307124420635547e-09}",0.9999971149328435,2,True,CorrectNonLiteral,tk-instruct-11b-def-pos

@@ -1,0 +1,80 @@
+DV	21	1	Because he had been playing for some time.
+DV	22	1	Because he likes the gift very much.
+DV	23	1	"Because his friends broke the window, but Cody does not want his mom to be angry with them."
+DV	24	1	He does not want to hurt the host by not eating the food he was offered.
+DV	25	1	She is very much fond of a skateboard.
+DV	26	1	He likes the unusual taste of Jessica's desert.
+DV	27	1	Sally forgot that the ring was the present that she opened before.
+DV	28	1	She wanted to be honest with her boss and felt bad about lying.
+DV	29	1	He likes the book that his aunt gave him.
+DV	30	1	He did not like this car too much.
+DV	31	1	He thinks that a new dress looks good on Susan.
+DV	32	1	Trisha thought that Anna's jokes were hilarious. 
+DV	33	1	Jim thought that Jason's voice was loud enough.
+DV	34	1	She is happy that Anthony helped with the dishes.
+DV	35	1	She thought that it was good.
+DV	36	1	She thinks that spending dinner with George's family is a good idea.
+DV	37	1	She wants Mike to know that she has never thought about breaking up with him.
+DV	38	1	She wants Alex to know that the surgery was not that painful for her after all.
+DV	39	1	Annie had a great time with Mike.
+DV	40	1	She is happy with the way Mrs. Smith cut her hair.
+DV	21	2	Because he wants his dad to believe that he has been working.
+DV	22	2	Because he wants Maggy to understand that he dislikes her gift.
+DV	23	2	Because he wants his mom to know that he broke it.
+DV	24	2	He wants to avoid eating fish.
+DV	25	2	She wants her mom to know that this is not the present that she wanted.
+DV	26	2	He dislikes the unusual taste of Jessica's desert.
+DV	27	2	Sally was ashamed to acknowledge that she opened up the present.
+DV	28	2	She did not want to get in trouble with her boss by admitting that she lied to him.
+DV	29	2	He wants his aunt to realize that he expected to get a different gift.
+DV	30	2	Friendship was more important for him than a minor damage to the car.
+DV	31	2	He wants to stress out that this dress does not compliment Susan's figure.
+DV	32	2	Trisha wanted Anna to understand that her jokes were not humorous.
+DV	33	2	Jim wanted Jason to understand that he needs to speak louder.
+DV	34	2	She shows him how angry she is with him for breaking the teacup.
+DV	35	2	She wanted Bob to understand that it was not good.
+DV	36	2	She thinks that spending dinner with George's family is a bad idea.
+DV	37	2	She wants Mike to know that she has thought about breaking up with him.
+DV	38	2	She wants Alex to know that the surgery was extremely painful for her.
+DV	39	2	Annie wants Lisa to know that the date was a disaster.
+DV	40	2	She is unhappy with the way Mrs. Smith cut her hair.
+DV	21	3	Because he does not want to offend his dad by not doing what he promised him to do.
+DV	22	3	Because he does not want to hurt Maggy by saying that he dislikes the gift.
+DV	23	3	Because he finds this window was too old and wants to get rid of it.
+DV	24	3	He wants to have some fish every night.
+DV	25	3	She does not want to hurt her mom by showing that she is upset with the present.
+DV	26	3	He does not want Jessica to feel bad about her mediocre baking skills.
+DV	27	3	Sally thought that the ring was meant for someone else.
+DV	28	3	She did spend some time resting in bed.
+DV	29	3	He does not want to show that he is disappointed not to offend his aunt.
+DV	30	3	He wanted Mary to feel bad for scratching his car.
+DV	31	3	He does not want to ruin Susan's good mood.
+DV	32	3	Trisha did not want Anna to feel awkward at this party.
+DV	33	3	Jim wanted to support Jason and not make him even more nervous during public speaking in future.
+DV	34	3	She is appreciative for Anthony washing the dishes and wants to support his initiative.
+DV	35	3	She did not want to upset Bob.
+DV	36	3	She wants to keep good relationship with George and his family.
+DV	37	3	She values their current relationships and does not want to hurt them by discussing things from the past.
+DV	38	3	She does not want to put additional stress on her partner by telling him the truth.
+DV	39	3	Annie does not want to upset her friend.
+DV	40	3	She does not want to hurt her friend by criticizing her mother.
+DV	21	4	Because he does not want to get in trouble for not studying.
+DV	22	4	Because he does not like parties and wants it to be over with. 
+DV	23	4	Because he does not want his mom to be angry with him for breaking the window.
+DV	24	4	He does not want to get in trouble for eating fish.
+DV	25	4	She wants to re-gift the skateboard to her brother. 
+DV	26	4	He wants Jessica to know what a great baker she is. 
+DV	27	4	Sally wanted to confess that she opened her gift before. 
+DV	28	4	She has realized that the boss was in the mall.
+DV	29	4	He realizes that reading is more fun than playing games. 
+DV	30	4	He is happy that Mary is not going to drive his car any more.
+DV	31	4	He does not want to get into argument with Susan. 
+DV	32	4	Trisha is afraid to get in trouble for telling Anna the truth.  
+DV	33	4	"Jim missed Jason's presentation, but did not want to confess it. "
+DV	34	4	She wants to punish him. 
+DV	35	4	She did not want to show that she was angry. 
+DV	36	4	She wants to learn how to cook spaghetti. 
+DV	37	4	She is disappointed with their current relationship and wants to end it.  
+DV	38	4	She values her relationship with her partner and does not want to get into an argument with him. 
+DV	39	4	Annie does not want to be friends with Lisa any more.
+DV	40	4	She does not want to be friends with this person any more.

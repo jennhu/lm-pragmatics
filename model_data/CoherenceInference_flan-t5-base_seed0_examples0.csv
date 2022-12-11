@@ -1,0 +1,281 @@
+phenomenon,item_id,content,randomized_option_order,randomized_labels_complex,randomized_true_answer,original_labels_complex,is_example,prompt,seed,generation,generation_isvalid,distribution,prob_true_answer,answer,correct,answer_label_complex,model
+CIV,1,Mary's exam was about to start. Her palms were sweaty. ,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Mary's exam was about to start. Her palms were sweaty. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,1,True,"{'1': 0.5072363926333123, '2': 0.4927636073666877}",0.4927636073666877,1,False,IncorrectIncoherent,flan-t5-base
+CIV,2,Laura got a lot of mail today. Some of her friends had remembered her birthday.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Laura got a lot of mail today. Some of her friends had remembered her birthday.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3015825072432449, '2': 0.6984174927567551}",0.6984174927567551,2,True,Correct,flan-t5-base
+CIV,3,Sometimes a truck drives by the house. The dishes start to rattle.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Sometimes a truck drives by the house. The dishes start to rattle.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.39907092474121186, '2': 0.6009290752587882}",0.6009290752587882,2,True,Correct,flan-t5-base
+CIV,4,The lights have been on since last night. The car doesn't start.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The lights have been on since last night. The car doesn't start.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,1,True,"{'1': 0.620209267905127, '2': 0.37979073209487296}",0.37979073209487296,1,False,IncorrectIncoherent,flan-t5-base
+CIV,5,Susan felt her baby's forehead with her palm. She begged her family doctor to come at once.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Susan felt her baby's forehead with her palm. She begged her family doctor to come at once.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.41323901035068233, '2': 0.5867609896493178}",0.5867609896493178,2,True,Correct,flan-t5-base
+CIV,6,Bob was looking forward to the long holiday. He turned on the TV for a weather report.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bob was looking forward to the long holiday. He turned on the TV for a weather report.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3533793288728776, '2': 0.6466206711271224}",0.6466206711271224,2,True,Correct,flan-t5-base
+CIV,7,Sharon's car was totally wrecked last week. She went to the bank hoping to get a loan.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Sharon's car was totally wrecked last week. She went to the bank hoping to get a loan.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.377070698661291, '2': 0.622929301338709}",0.622929301338709,2,True,Correct,flan-t5-base
+CIV,8,Cathy worked very hard and became exhausted. She was carried unconscious to the hospital. ,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Cathy worked very hard and became exhausted. She was carried unconscious to the hospital. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3872853401295442, '2': 0.6127146598704558}",0.6127146598704558,2,True,Correct,flan-t5-base
+CIV,9,A dog ran toward a little girl eating ice cream. She was knocked down and shouted for her mother. ,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: A dog ran toward a little girl eating ice cream. She was knocked down and shouted for her mother. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4218706210177147, '2': 0.5781293789822853}",0.5781293789822853,2,True,Correct,flan-t5-base
+CIV,10,Jane skipped her English class every now and then. She began to worry about her final exam.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jane skipped her English class every now and then. She began to worry about her final exam.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.46765962557692925, '2': 0.5323403744230708}",0.5323403744230708,2,True,Correct,flan-t5-base
+CIV,11,Vicky was planning her first trip to Europe. She put her favorite bathing suit in her bag.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Vicky was planning her first trip to Europe. She put her favorite bathing suit in her bag.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.36858889610429507, '2': 0.631411103895705}",0.631411103895705,2,True,Correct,flan-t5-base
+CIV,12,Dick tripped over a chair and hit his head. A mirror fell down and shattered on the floor. ,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Dick tripped over a chair and hit his head. A mirror fell down and shattered on the floor. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.36174857121149895, '2': 0.638251428788501}",0.638251428788501,2,True,Correct,flan-t5-base
+CIV,13,The Senator wanted to practice corporate law. He decided not to run for re-election.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The Senator wanted to practice corporate law. He decided not to run for re-election.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4560381440444614, '2': 0.5439618559555386}",0.5439618559555386,2,True,Correct,flan-t5-base
+CIV,14,Joey got angry at his brother in a game. The next day his body was covered with bruises.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Joey got angry at his brother in a game. The next day his body was covered with bruises.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4006868372407276, '2': 0.5993131627592723}",0.5993131627592723,2,True,Correct,flan-t5-base
+CIV,15,The rain storm was approaching the city. The papers on the desk blew off onto the floor.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The rain storm was approaching the city. The papers on the desk blew off onto the floor.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.42611565304773136, '2': 0.5738843469522686}",0.42611565304773136,2,False,IncorrectIncoherent,flan-t5-base
+CIV,16,Greg was working too hard to have enough rest. His driving became more dangerous each day.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Greg was working too hard to have enough rest. His driving became more dangerous each day.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.4820197303344955, '2': 0.5179802696655045}",0.4820197303344955,2,False,IncorrectIncoherent,flan-t5-base
+CIV,17,Lisa commuted to her office an hour each way. She opened the paper to look at the apartment listing.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Lisa commuted to her office an hour each way. She opened the paper to look at the apartment listing.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.4390690228047759, '2': 0.5609309771952241}",0.4390690228047759,2,False,IncorrectIncoherent,flan-t5-base
+CIV,18,Richard remembered it was a big day for Karen. He spent the whole day shopping for a present.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Richard remembered it was a big day for Karen. He spent the whole day shopping for a present.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4002765740130982, '2': 0.5997234259869018}",0.5997234259869018,2,True,Correct,flan-t5-base
+CIV,19,Jerry read the copy of his manuscript. The next day he yelled at his secretary.,"[1, 2]","['Correct', 'IncorrectIncoherent']",1,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jerry read the copy of his manuscript. The next day he yelled at his secretary.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.47983602130977404, '2': 0.5201639786902259}",0.47983602130977404,2,False,IncorrectIncoherent,flan-t5-base
+CIV,20,Cleo brushed against a table with a vase on it. The water spilled onto the expensive carpet.,"[2, 1]","['IncorrectIncoherent', 'Correct']",2,"['Correct', 'IncorrectIncoherent']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Cleo brushed against a table with a vase on it. The water spilled onto the expensive carpet.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.41808355646488515, '2': 0.5819164435351148}",0.5819164435351148,2,True,Correct,flan-t5-base
+CIV,21,Mary's exam was about to start. Some friends had remembered her birthday.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Mary's exam was about to start. Some friends had remembered her birthday.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3883679602609802, '2': 0.6116320397390198}",0.3883679602609802,2,False,IncorrectCoherent,flan-t5-base
+CIV,22,The lights have been on since last night. He turned on the TV for a weather report.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The lights have been on since last night. He turned on the TV for a weather report.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.48810539590721735, '2': 0.5118946040927825}",0.5118946040927825,2,True,Correct,flan-t5-base
+CIV,23,Bob was looking forward to the long holiday. He begged his family doctor to come at once.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bob was looking forward to the long holiday. He begged his family doctor to come at once.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.41977390050443114, '2': 0.5802260994955688}",0.41977390050443114,2,False,IncorrectCoherent,flan-t5-base
+CIV,24,Sharon's car was totally wrecked last week. She was knocked down and shouted for her mother,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Sharon's car was totally wrecked last week. She was knocked down and shouted for her mother
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.45654641288800235, '2': 0.5434535871119976}",0.45654641288800235,2,False,IncorrectCoherent,flan-t5-base
+CIV,25,Allen told his mother that he had a car accident. She began to worry about her final exam.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Allen told his mother that he had a car accident. She began to worry about her final exam.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4148749423962215, '2': 0.5851250576037784}",0.4148749423962215,2,False,IncorrectCoherent,flan-t5-base
+CIV,26,A dog ran toward a little girl eating ice cream. She went to the bank hoping to get a loan. ,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: A dog ran toward a little girl eating ice cream. She went to the bank hoping to get a loan. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.45417549948791186, '2': 0.5458245005120883}",0.5458245005120883,2,True,Correct,flan-t5-base
+CIV,27,Jane skipped her English class every now and then. She got upset and began to cry suddenly. ,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jane skipped her English class every now and then. She got upset and began to cry suddenly. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.4903136691176635, '2': 0.5096863308823366}",0.5096863308823366,2,True,Correct,flan-t5-base
+CIV,28,Bart sat next to a pretty girl in his class. She was carried unconscious to a hospital. ,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bart sat next to a pretty girl in his class. She was carried unconscious to a hospital. 
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.49590197441413764, '2': 0.5040980255858624}",0.5040980255858624,2,True,Correct,flan-t5-base
+CIV,29,Vicky was planning her first trip to Europe. A mirror fell down and shattered on the floor.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Vicky was planning her first trip to Europe. A mirror fell down and shattered on the floor.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4807890499443201, '2': 0.5192109500556799}",0.4807890499443201,2,False,IncorrectCoherent,flan-t5-base
+CIV,30,Dick tripped over a chair and hit his head. He decided not to run for re-election. ,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Dick tripped over a chair and hit his head. He decided not to run for re-election. 
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3866805509989265, '2': 0.6133194490010736}",0.3866805509989265,2,False,IncorrectCoherent,flan-t5-base
+CIV,31,Tony had a fight with his friend near a pond. His driving became more dangerous each day.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Tony had a fight with his friend near a pond. His driving became more dangerous each day.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.4487324038479875, '2': 0.5512675961520125}",0.5512675961520125,2,True,Correct,flan-t5-base
+CIV,32,The rain storm was approaching the city. The next day the boy's body was covered with bruises.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: The rain storm was approaching the city. The next day the boy's body was covered with bruises.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.365973010081378, '2': 0.634026989918622}",0.365973010081378,2,False,IncorrectCoherent,flan-t5-base
+CIV,33,"Bill considered various high-tech careers. He walked home, soaking wet, to change his clothes.","[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Bill considered various high-tech careers. He walked home, soaking wet, to change his clothes.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3516967123584471, '2': 0.6483032876415529}",0.3516967123584471,2,False,IncorrectCoherent,flan-t5-base
+CIV,34,Ed wanted to leave his father's business. He decided not to go out with him any more.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Ed wanted to leave his father's business. He decided not to go out with him any more.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.44174261835653955, '2': 0.5582573816434604}",0.44174261835653955,2,False,IncorrectCoherent,flan-t5-base
+CIV,35,Ann had been absent from school for weeks. The papers on the desk blew off onto the floor.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Ann had been absent from school for weeks. The papers on the desk blew off onto the floor.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.45825281228037373, '2': 0.5417471877196263}",0.5417471877196263,2,True,Correct,flan-t5-base
+CIV,36,Greg was working too hard to have enough rest. He spent the whole day shopping for a present.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Greg was working too hard to have enough rest. He spent the whole day shopping for a present.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,2,True,"{'1': 0.4671788779607392, '2': 0.5328211220392608}",0.5328211220392608,2,True,Correct,flan-t5-base
+CIV,37,Ellen was not able to eat breakfast before work. She had a heated discussion until midnight.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Ellen was not able to eat breakfast before work. She had a heated discussion until midnight.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.43623612240910675, '2': 0.5637638775908932}",0.43623612240910675,2,False,IncorrectCoherent,flan-t5-base
+CIV,38,Lisa commuted to her office an hour each way. The water spilled onto the expensive carpet.,"[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Lisa commuted to her office an hour each way. The water spilled onto the expensive carpet.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.4872027576337847, '2': 0.5127972423662153}",0.4872027576337847,2,False,IncorrectCoherent,flan-t5-base
+CIV,39,"Jerry read the copy of his manuscript. Frantically, he searched through the medicine cabinet.","[2, 1]","['Correct', 'IncorrectCoherent']",1,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Jerry read the copy of his manuscript. Frantically, he searched through the medicine cabinet.
+Options:
+1) Incoherent
+2) Coherent
+Answer: ",0,2,True,"{'1': 0.3423229655028673, '2': 0.6576770344971328}",0.3423229655028673,2,False,IncorrectCoherent,flan-t5-base
+CIV,40,Cleo brushed against a table with a vase on it. She decided to study harder to catch up.,"[1, 2]","['IncorrectCoherent', 'Correct']",2,"['IncorrectCoherent', 'Correct']",False,"Task: You will read pairs of sentences. Reach each pair and decide whether they form a coherent story. The answer options are 1 or 2.
+
+Scenario: Cleo brushed against a table with a vase on it. She decided to study harder to catch up.
+Options:
+1) Coherent
+2) Incoherent
+Answer: ",0,1,True,"{'1': 0.5161624845783002, '2': 0.4838375154216998}",0.4838375154216998,1,False,IncorrectCoherent,flan-t5-base
