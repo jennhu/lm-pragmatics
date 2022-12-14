@@ -1,6 +1,6 @@
 # A fine-grained comparison of pragmatic language understanding in humans and language models
 
-This repository contains code and data for "A fine-grained comparison of pragmatic language understanding in humans and language models" by Jennifer Hu, Sammy Floyd, Olessia Jouravlev, Evelina Fedorenko, and Edward Gibson.
+This repository contains code and data for ["A fine-grained comparison of pragmatic language understanding in humans and language models"](https://arxiv.org/abs/2212.06801) by Jennifer Hu, Sammy Floyd, Olessia Jouravlev, Evelina Fedorenko, and Edward Gibson.
 
 ## Prompts
 
